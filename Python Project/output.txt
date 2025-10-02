@@ -1,0 +1,3875 @@
+DATA STRUCTURES
+(R18A0584)
+LABORATORY MANUAL
+B.TECH II YEAR – I SEM (R18)
+(2019-20)
+DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
+MALLA REDDY COLLEGE OF ENGINEERING & TECHNOLOGY
+(Autonomous Institution – UGC, Govt. of India)
+(Recognized under 2(f) and 12 (B) of UGC ACT 1956)
+(Affiliated to JNTUH, Hyderabad, Approved by AICTE - Accredited by NBA & NAAC – ‘A’ Grade - ISO
+9001:2015 Certified)
+Maisammaguda, Dhulapally (Post Via. Hakimpet), Secunderabad – 500100, Telangana State, India
+DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
+Vision
+ To acknowledge quality education and instill high patterns of discipline making
+the students technologically superior and ethically strong which involves the
+improvement in the quality of life in human race.
+Mission
+ To achieve and impart holistic technical education using the best of
+infrastructure, outstanding technical and teaching expertise to establish the
+students into competent and confident engineers.
+ Evolving the center of excellence through creative and innovative teaching
+learning practices for promoting academic achievement to produce internationally
+accepted competitive and world class professionals.
+PROGRAMME EDUCATIONAL OBJECTIVES (PEOs)
+PEO1 – ANALYTICAL SKILLS
+1. To facilitate the graduates with the ability to visualize, gather information,
+articulate, analyze, solve complex problems, and make decisions. These are
+essential to address the challenges of complex and computation intensive
+problems increasing their productivity.
+PEO2 – TECHNICAL SKILLS
+2. To facilitate the graduates with the technical skills that prepare them for
+immediate employment and pursue certification providing a deeper understanding
+of the technology in advanced areas of computer science and related fields, thus
+encouraging to pursue higher education and research based on their interest.
+PEO3 – SOFT SKILLS
+3. To facilitate the graduates with the soft skills that include fulfilling the mission,
+setting goals, showing self-confidence by communicating effectively, having a
+positive attitude, get involved in team-work, being a leader, managing their career
+and their life.
+PEO4 – PROFESSIONAL ETHICS
+To facilitate the graduates with the knowledge of professional and ethical responsibilities
+by paying attention to grooming, being conservative with style, following dress codes,
+safety codes,and adapting themselves to technological advancements.
+PROGRAM SPECIFIC OUTCOMES (PSOs)
+After the completion of the course, B. Tech Computer Science and Engineering, the
+graduates will have the following Program Specific Outcomes:
+1. Fundamentals and critical knowledge of the Computer System:- Able to
+Understand the working principles of the computer System and its components ,
+Apply the knowledge to build, asses, and analyze the software and hardware
+aspects of it .
+2. The comprehensive and Applicative knowledge of Software Development:
+Comprehensive skills of Programming Languages, Software process models,
+methodologies, and able to plan, develop, test, analyze, and manage the software
+and hardware intensive systems in heterogeneous platforms individually or
+working in teams.
+3. Applications of Computing Domain & Research: Able to use the professional,
+managerial, interdisciplinary skill set, and domain specific tools in development
+processes, identify the research gaps, and provide innovative solutions to them.
+PROGRAM OUTCOMES (POs)
+Engineering Graduates will be able to:
+1. Engineering knowledge: Apply the knowledge of mathematics, science,
+engineering fundamentals, and an engineering specialization to the solution of
+complex engineering problems.
+2. Problem analysis: Identify, formulate, review research literature, and analyze
+complex engineering problems reaching substantiated conclusions using first
+principles of mathematics, natural sciences, and engineering sciences.
+3. Design / development of solutions: Design solutions for complex engineering
+problems and design system components or processes that meet the specified
+needs with appropriate consideration for the public health and safety, and the
+cultural, societal, and environmental considerations.
+4. Conduct investigations of complex problems: Use research-based knowledge
+and research methods including design of experiments, analysis and
+interpretation of data, and synthesis of the information to provide valid
+conclusions.
+5. Modern tool usage: Create, select, and apply appropriate techniques,
+resources, and modern engineering and IT tools including prediction and
+modeling to complex engineering activities with an understanding of the
+limitations.
+6. The engineer and society: Apply reasoning informed by the contextual
+knowledge to assess societal, health, safety, legal and cultural issues and the
+consequent responsibilities relevant to the professional engineering practice.
+7. Environment and sustainability: Understand the impact of the professional
+engineering solutions in societal and environmental contexts, and demonstrate
+the knowledge of, and need for sustainable development.
+8. Ethics: Apply ethical principles and commit to professional ethics and
+responsibilities and norms of the engineering practice.
+9. Individual and team work: Function effectively as an individual, and as a
+member or leader in diverse teams, and in multidisciplinary settings.
+10. Communication: Communicate effectively on complex engineering activities
+with the engineering community and with society at large, such as, being able
+to comprehend and write effective reports and design documentation, make
+effective presentations, and give and receive clear instructions.
+11. Project management and finance: Demonstrate knowledge and
+understanding of the engineering and management principles and apply these
+to one’s own work, as a member and leader in a team, to manage projects and
+in multi disciplinary environments.
+12. Life- long learning: Recognize the need for, and have the preparation and
+ability to engage in independent and life-long learning in the broadest context
+of technological change.
+MALLA REDDY COLLEGE OF ENGINEERING & TECHNOLOGY
+Maisammaguda, Dhulapally Post, Via Hakimpet, Secunderabad – 500100
+DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
+GENERAL LABORATORY INSTRUCTIONS
+1. Students are advised to come to the laboratory at least 5 minutes before (to the
+starting time), those who come after 5 minutes will not be allowed into the lab.
+2. Plan your task properly much before to the commencement, come prepared to the lab
+with the synopsis / program / experiment details.
+3. Student should enter into the laboratory with:
+a. Laboratory observation notes with all the details (Problem statement, Aim,
+Algorithm, Procedure, Program, Expected Output, etc.,) filled in for the lab session.
+b. Laboratory Record updated up to the last session experiments and other utensils (if
+any) needed in the lab.
+c. Proper Dress code and Identity card.
+4. Sign in the laboratory login register, write the TIME-IN, and occupy the computer
+system allotted to you by the faculty.
+5. Execute your task in the laboratory, and record the results / output in the lab
+observation note book, and get certified by the concerned faculty.
+6. All the students should be polite and cooperative with the laboratory staff, must
+maintain the discipline and decency in the laboratory.
+7. Computer labs are established with sophisticated and high end branded systems,
+which should be utilized properly.
+8. Students / Faculty must keep their mobile phones in SWITCHED OFF mode during
+the lab sessions.Misuse of the equipment, misbehaviors with the staff and systems
+etc., will attract severe punishment.
+9. Students must take the permission of the faculty in case of any urgency to go out ; if
+anybody found loitering outside the lab / class without permission during working
+hours will be treated seriously and punished appropriately.
+10. Students should LOG OFF/ SHUT DOWN the computer system before he/she leaves
+the lab after completing the task (experiment) in all aspects. He/she must ensure the
+system / seat is kept properly.
+Head of the Department Principal
+OBJECTIVES AND OUTCOMES
+Objectives:
+ To make the student learn a object oriented way of solving problems.
+ To make the student write ADTS for all data structures.
+Outcomes:
+At the end of the course the students are able to:
+ For a given Search problem (Linear Search and Binary Search) student will able to implement
+it.
+ For a given problem of Stacks, Queues and linked list student will able to implement it and
+analyze the same to determine the time and computation complexity.
+ Student will able to write program for Selection Sort, Bubble Sort, Insertion Sort,
+Quick Sort, Merge Sort, Heap Sort and compare their performance in term of Space
+and Time complexity.
+Vision:
+To acknowledge quality education and instill high patterns of discipline making the
+students technologically superior and ethically strong which involves the improvement
+in the quality of life in human race.
+Mission:
+To achieve and impart holistic technical education using the best of infrastructure,
+outstanding technical and teaching expertise to establish the students into competent and
+confident engineers.
+Evolving the center of excellence through creative and innovative teaching learning
+practices for promoting academic achievement to produce internationally accepted
+competitive and world class professionals.
+RECOMMENDED SYSTEM / SOFTWARE REQUIREMENTS:
+1. Intel based desktop PC of 166MHz or faster processor with at least 64 MB RAM
+and 100 MB free disk space.
+2. turbo C++ compiler or GCC compilers
+USEFUL TEXT BOOKS / REFERECES :
+1. Data structures, Algorithms and Applications in C++, S.Sahni, University Press
+(India) Pvt.Ltd, 2nd edition, Universities Press Orient Longman Pvt. Ltd.
+2. Data structures and Algorithms in C++, Michael T.Goodrich, R.Tamassia and
+.Mount, Wiley student edition, John Wiley and Sons.
+3. Data structures using C and C++, Langsam, Augenstein and Tanenbaum, PHI.
+MALLA REDDY COLLEGE OF ENGINEERING & TECHNOLOGY
+Maisammaguda, Dhulapally Post, Via Hakimpet, Secunderabad – 500100
+DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
+DATA STRUCTURES Lab Manual
+List of programs
+S.No Name of the program Page no Date Faculty
+sign
+Write a program that uses functions to perform the
+following operations on singly linked list i) Creation
+1.
+ii) Insertion iii) Deletion iv) Traversal.
+Write a program that uses functions to perform the following
+operations on doubly linked list i) Creation ii) Insertion iii)
+2.
+Deletion iv) Traversal.
+Write a program that uses functions to perform the following
+operations on circular linked List i) Creation ii) Insertion iii)
+3.
+Deletion iv) Traversal.
+Write a program that implement stack (its operations) using
+4. i) Arrays ii) Linked list(Pointers).
+Write a program that implement Queue (its operations) using
+5. i) Arrays ii) Linked list(Pointers).
+i) Write a program that implement Circular Queue using
+arrays.
+ii) Write a program that uses both recursive and non
+6.
+recursive functions to perform the following searching
+operations for a Key value in a given list of integers:
+a) Linear search b) Binary search.
+Write a program that implements the following sorting
+7.
+i) Bubble sort ii) Selection sort iii)Quick sort.
+Write a program that implements the following
+8.
+i) Insertion sort ii) Merge sort iii)Heap sort.
+Write a program to implement all the functions of a
+9. dictionary (ADT) using Linked List.
+Write a program to perform the following operations:
+a) Insert an element into a binary search tree.
+10. b) Delete an element from a binary search tree.
+c) Search for a key element in a binary search tree.
+Write a program to implement the tree traversal
+11.
+methods
+Write a program to perform the following operations:
+a) Insert an element into a AVL tree.
+12. b) Delete an element from a AVL tree.
+c) Search for a key element in a AVL tree.
+Department of CSE Page 9
+Data Structures Lab Using C++ 2019-2020
+WEEK-1: DATE:
+Aim: Write a program that uses functions to perform the following operations on Singly
+Linked List
+(i)Creation (ii) Insertion (iii) Deletion (iv) Traversal.
+Description:
+Linked List
+When we want to work with an unknown number of data values, we use a linked list data
+structure to organize that data. The linked list is a linear data structure that contains a sequence of
+elements such that each element links to its next element in the sequence. Each element in a
+linked list is called "Node".
+Linked List can be implemented as
+1. Singly Linked List
+2. Doubly Linked List
+3. Circular Linked List
+Single Linked List
+Simply a list is a sequence of data, and the linked list is a sequence of data linked with
+each other. The formal definition of a single linked list is as follows...
+In any single linked list, the individual element is called as "Node". Every "Node"
+contains two fields, data field, and the next field. The data field is used to store actual value of
+the node and next field is used to store the address of next node in the sequence.
+The graphical representation of a node in a single linked list is as follows...
+Example
+Operations on Single Linked List
+The following operations are performed on a Single Linked List
+1.Creation
+2.Insertion
+3.Deletion
+4.Display
+Department of CSE Page 1
+Data Structures Lab Using C++ 2019-2020
+Before we implement actual operations, first we need to set up an empty list. First, perform the
+following steps before implementing actual operations.
+1.Creation
+Step 1 - Define a Node structure with two members data and next
+Step 2 - Define a Node pointer 'head' and set it to NULL.
+2.Insertion
+In a single linked list, the insertion operation can be performed in three ways. They are as
+follows...
+2.1 Inserting At Beginning of the list
+2.2 Inserting At End of the list
+2.3 Inserting At Specific location in the list
+2.1 Inserting At Beginning of the list
+We can use the following steps to insert a new node at beginning of the single linked list...
+Step 1 - Create a newNode with given value.
+Step 2 - Check whether list is Empty (head == NULL)
+Step 3 - If it is Empty then, set newNode→next = NULL and head = newNode.
+Step 4 - If it is Not Empty then, set newNode→next = head and head = newNode.
+2.2 Inserting At End of the list
+We can use the following steps to insert a new node at end of the single linked list...
+Step 1 - Create a newNode with given value and newNode → next as NULL.
+Step 2 - Check whether list is Empty (head == NULL).
+Step 3 - If it is Empty then, set head = newNode.
+Step 4 - If it is Not Empty then, define a node pointer temp and initialize with head.
+Step 5 - Keep moving the temp to its next node until it reaches to the last node in the list
+(until temp → next is equal to NULL).
+Department of CSE Page 2
+Data Structures Lab Using C++ 2019-2020
+Dr 2018-2019
+Step 6 - Set temp → next = newNode.
+2.3 Inserting At Specific location in the list (After a Node)
+We can use the following steps to insert a new node after a node in the single linked list...
+Step 1 - Create a newNode with given value.
+Step 2 - Check whether list is Empty (head == NULL)
+Step 3 - If it is Empty then, set newNode → next = NULL and head = newNode.
+Step 4 - If it is Not Empty then, define a node pointer temp and initialize with head.
+Step 5 - Keep moving the temp to its next node until it reaches to the node after which
+we want to insert the newNode (until temp1 → data is equal to location, here
+location is the node value after which we want to insert the newNode).
+Step 6 - Every time check whether temp is reached to last node or not. If it is reached to
+last node then display 'Given node is not found in the list!!! Insertion not
+possible!!!' and terminate the function. Otherwise move the temp to next node.
+Step 7 - Finally, Set 'newNode → next = temp → next' and 'temp → next = newNode'
+3. Deletion
+In a single linked list, the deletion operation can be performed in three ways. They are as
+follows...
+3.1 Deleting from Beginning of the list
+3.2 Deleting from End of the list
+3.3 Deleting a Specific Node
+3.1 Deleting from Beginning of the list
+We can use the following steps to delete a node from beginning of the single linked list...
+Step 1 - Check whether list is Empty (head == NULL)
+Step 2 - If it is Empty then, display 'List is Empty!!! Deletion is not possible' and terminate
+the function.
+Department of CSE Page 3
+Data Structures Lab Using C++ 2019-2020
+Step 3 - If it is Not Empty then, define a Node pointer 'temp' and initialize with head.
+Step 4 - Check whether list is having only one node (temp → next == NULL)
+Step 5 - If it is TRUE then set head = NULL and delete temp (Setting Empty list conditions)
+Step 6 - If it is FALSE then set head = temp → next, and delete temp.
+3.2 Deleting from End of the list
+We can use the following steps to delete a node from end of the single linked list...
+Step 1 - Check whether list is Empty (head == NULL)
+Step 2 - If it is Empty then, display 'List is Empty!!! Deletion is not possible' and
+terminate the function.
+Step 3 - If it is Not Empty then, define two Node pointers 'temp1' and 'temp2' and
+initialize 'temp1' with head.
+Step 4 - Check whether list has only one Node (temp1 → next == NULL)
+Step 5 - If it is TRUE. Then, set head = NULL and delete temp1. And terminate the
+function. (Setting Empty list condition)
+Step 6 - If it is FALSE. Then, set 'temp2 = temp1 ' and move temp1 to its next node.
+Repeat the same until it reaches to the last node in the list.
+(until temp1 →next == NULL)
+Step 7 - Finally, Set temp2 → next = NULL and delete temp1.
+3.3 Deleting a Specific Node from the list
+We can use the following steps to delete a specific node from the single linked list...
+Step 1 - Check whether list is Empty (head == NULL)
+Step 2 - If it is Empty then, display 'List is Empty!!! Deletion is not possible' and
+terminate the function.
+Step 3 - If it is Not Empty then, define two Node pointers 'temp1' and 'temp2' and
+Department of CSE Page 4
+Data Structures Lab Using C++ 2019-2020
+initialize 'temp1' with head.
+Step 4 - Keep moving the temp1 until it reaches to the exact node to be deleted or to the
+last node. And every time set 'temp2 = temp1' before moving the 'temp1' to its
+next node.
+Step 5 - If it is reached to the last node then display 'Given node not found in the list!
+Deletion not possible!!!'. And terminate the function.
+Step 6 - If it is reached to the exact node which we want to delete, then check whether list
+is having only one node or not
+Step 7 - If list has only one node and that is the node to be deleted, then
+set head = NULL and delete temp1 (free(temp1)).
+Step 8 - If list contains multiple nodes, then check whether temp1 is the first node in the
+list (temp1 == head).
+Step 9 - If temp1 is the first node then move the head to the next node (head = head →
+next) and delete temp1.
+Step 10 - If temp1 is not first node then check whether it is last node in the list
+(temp1 → next == NULL).
+Step 11 - If temp1 is last node then set temp2 → next = NULL and
+delete temp1 (free(temp1)).
+Step 12 - If temp1 is not first node and not last node then set temp2 → next = temp1 →
+next and delete temp1 (free(temp1)).
+4. Displaying a Single Linked List
+We can use the following steps to display the elements of a single linked list...
+Step 1 - Check whether list is Empty (head == NULL)
+Department of CSE Page 5
+Data Structures Lab Using C++ 2019-2020
+Step 2 - If it is Empty then, display 'List is Empty!!!' and terminate the function.
+Step 3 - If it is Not Empty then, define a Node pointer 'temp' and initialize with head.
+Step 4 - Keep displaying temp → data with an arrow (--->) until temp reaches to the last
+node
+Step 5 - Finally display temp → data with arrow pointing to NULL (temp → data --->
+NULL).
+Source Code: To implement Singly Linked List
+#include<iostream.h>
+#include<conio.h>
+#include<stdlib.h>
+void insertAtBeginning(int);
+void insertAtEnd(int);
+void insertBetween(int,int,int);
+void display();
+void removeBeginning();
+void removeEnd();
+void removeSpecific(int);
+struct Node
+{
+int data;
+struct Node *next;
+}*head = NULL;
+void main()
+{
+int choice,value,choice1,loc1,loc2;
+clrscr();
+while(1){
+mainMenu:
+cout<<”\n\n****** MENU ******\n1. Insert\n2. Display\n3. Delete\n4. Exit\nEnter your
+choice: ";
+cin>>choice;
+switch(choice)
+Department of CSE Page 6
+Data Structures Lab Using C++ 2019-2020
+{
+case 1: cout<<"Enter the value to be insert: ";
+cin>>value;
+while(1)
+{
+cout<<"Where you want to insert: \n1. At Beginning\n2. At End\n3.
+Between\nEnter your choice: ";
+cin>>choice1;
+switch(choice1)
+{
+case 1: insertAtBeginning(value);
+break;
+case 2: insertAtEnd(value);
+break;
+case 3: cout<<"Enter the two values where you wanto insert: ";
+cin>>loc1>>loc2;
+insertBetween(value,loc1,loc2);
+break;
+default: cout<<"\nWrong Input!! Try again!!!\n\n";
+goto mainMenu;
+}
+goto subMenuEnd;
+}
+subMenuEnd:
+break;
+case 2: display();
+break;
+case 3: cout<<"Ho do you want to Delete: \n1. From Beginning\n2. From End\n3.
+Spesific\nEnter your choice: ";
+cin>>choice1;
+switch(choice1)
+{
+case 1: removeBeginning();
+break;
+Department of CSE Page 7
+Data Structures Lab Using C++ 2019-2020
+case 2: removeEnd();
+break;
+case 3: cout<<"Enter the value which you wanto delete: ";
+cin>>loc2;
+removeSpecific(loc2);
+break;
+default: cout<<"\nWrong Input!! Try again!!!\n\n";
+goto mainMenu;
+}
+break;
+case 4: exit(0);
+default: cout<<"\nWrong input!!! Try again!!\n\n";
+}
+}
+}
+void insertAtBeginning(int value)
+{
+struct Node *newNode;
+newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode->data = value;
+if(head == NULL)
+{
+newNode->next = NULL;
+head = newNode;
+}
+else
+{
+newNode->next = head;
+head = newNode;
+}
+cout<<"\nOne node inserted!!!\n";
+}
+void insertAtEnd(int value)
+{
+Department of CSE Page 8
+Data Structures Lab Using C++ 2019-2020
+struct Node *newNode;
+newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode->data = value;
+newNode->next = NULL;
+if(head == NULL)
+head = newNode;
+else
+{
+struct Node *temp = head;
+while(temp->next != NULL)
+temp = temp->next;
+temp->next = newNode;
+}
+cout<<"\nOne node inserted!!!\n";
+}
+void insertBetween(int value, int loc1, int loc2)
+{
+struct Node *newNode;
+newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode->data = value;
+if(head == NULL)
+{
+newNode->next = NULL;
+head = newNode;
+}
+else
+{
+struct Node *temp = head;
+while(temp->data != loc1 && temp->data != loc2)
+temp = temp->next;
+newNode->next = temp->next;
+temp->next = newNode;
+}
+Department of CSE Page 9
+Data Structures Lab Using C++ 2019-2020
+cout<<"\nOne node inserted!!!\n";
+}
+void removeBeginning()
+{
+if(head == NULL)
+cout<<"\n\nList is Empty!!!";
+else
+{
+struct Node *temp = head;
+if(head->next == NULL)
+{
+head = NULL;
+free(temp);
+}
+else
+{
+head = temp->next;
+free(temp);
+cout<<"\nOne node deleted!!!\n\n";
+}
+}
+}
+void removeEnd()
+{
+if(head == NULL)
+{
+cout<<"\nList is Empty!!!\n";
+}
+else
+{
+struct Node *temp1 = head,*temp2;
+if(head->next == NULL)
+Department of CSE Page 10
+Data Structures Lab Using C++ 2019-2020
+head = NULL;
+else
+{
+while(temp1->next != NULL)
+{
+temp2 = temp1;
+temp1 = temp1->next;
+}
+temp2->next = NULL;
+}
+free(temp1);
+cout<<"\nOne node deleted!!!\n\n";
+}
+}
+void removeSpecific(int delValue)
+{
+struct Node *temp1 = head, *temp2;
+while(temp1->data != delValue)
+{
+if(temp1 -> next == NULL){
+cout<<"\nGiven node not found in the list!!!";
+goto functionEnd;
+}
+temp2 = temp1;
+temp1 = temp1 -> next;
+}
+temp2 -> next = temp1 -> next;
+free(temp1);
+cout<<"\nOne node deleted!!!\n\n";
+functionEnd:
+}
+Department of CSE Page 11
+Data Structures Lab Using C++ 2019-2020
+void display()
+{
+if(head == NULL)
+{
+cout<<"\nList is Empty\n";
+}
+else
+{
+struct Node *temp = head;
+cout<<"\n\nList elements are - \n";
+while(temp->next != NULL)
+{
+cout<<temp->data<<”\t”;
+temp = temp->next;
+}
+cout<<temp->data;
+}
+}
+Output:
+Department of CSE Page 12
+Data Structures Lab Using C++ 2019-2020
+Signature of the Faculty
+Department of CSE Page 13
+Data Structures Lab Using C++ 2019-2020
+WEEK-2 DATE:
+Aim: Write a program that uses functions to perform the following operations on doubly
+linked List (i)Creation (ii) Insertion (iii) Deletion (iv) Traversal.
+Description:
+Double Linked List
+In a single linked list, every node has a link to its next node in the sequence. So, we can traverse
+from one node to another node only in one direction and we can not traverse back. We can solve
+this kind of problem by using a double linked list. A double linked list can be defined as
+follows...
+Double linked list is a sequence of elements in which every element has links to its previous
+element and next element in the sequence.
+In a double linked list, every node has a link to its previous node and next node. So, we can
+traverse forward by using the next field and can traverse backward by using the previous field.
+Every node in a double linked list contains three fields and they are shown in the following
+figure...
+Here, 'link1' field is used to store the address of the previous node in the sequence, 'link2' field
+is used to store the address of the next node in the sequence and 'data' field is used to store the
+actual value of that node.
+Example
+Operations on Double Linked List
+In a double linked list, we perform the following operations...
+1. Creation
+2. Insertion
+3. Deletion
+4. Display
+Department of CSE Page 14
+Data Structures Lab Using C++ 2019-2020
+1.C reation
+Step 1 - Define a Node structure with two members data and next
+Step 2 - Define a Node pointer 'head' and set it to NULL.
+2.Insertion
+In a double linked list, the insertion operation can be performed in three ways as follows...
+2.1 Inserting At Beginning of the list
+2.2 Inserting At End of the list
+2.3 Inserting At Specific location in the list
+2.1 Inserting At Beginning of the list
+We can use the following steps to insert a new node at beginning of the double linked list...
+Step 1 - Create a newNode with given value and newNode → previous as NULL.
+Step 2 - Check whether list is Empty (head == NULL)
+Step 3 - If it is Empty then, assign NULL to newNode → next and newNode to head.
+Step 4 - If it is not Empty then, assign head to newNode → next and newNode to head.
+2.2 Inserting At End of the list
+We can use the following steps to insert a new node at end of the double linked list...
+Step 1 - Create a newNode with given value and newNode → next as NULL.
+Step 2 - Check whether list is Empty (head == NULL)
+Step 3 - If it is Empty, then assign NULL to newNode →
+previous and newNode to head.
+Step 4 - If it is not Empty, then, define a node pointer temp and initialize with head.
+Step 5 - Keep moving the temp to its next node until it reaches to the last node in the list
+(until temp → next is equal to NULL).
+Step 6 - Assign newNode to temp → next and temp to newNode → previous.
+Department of CSE Page 15
+Data Structures Lab Using C++ 2019-2020
+2.3 Inserting At Specific location in the list (After a Node)
+We can use the following steps to insert a new node after a node in the double linked list...
+Step 1 - Create a newNode with given value.
+Step 2 - Check whether list is Empty (head == NULL)
+Step 3 - If it is Empty then, assign NULL to both newNode → previous &
+newNode → next and set newNode to head.
+Step 4 - If it is not Empty then, define two node pointers temp1 & temp2 and
+initialize temp1 with head.
+Step 5 - Keep moving the temp1 to its next node until it reaches to the node after which
+we want to insert the newNode (until temp1 → data is equal to location, here
+location is the node value after which we want to insert the newNode).
+Step 6 - Every time check whether temp1 is reached to the last node. If it is reached to
+the last node then display 'Given node is not found in the list!!! Insertion not
+possible!!!' and terminate the function. Otherwise move the temp1 to next node.
+Step7- Assign temp1→next to temp2, newNode to temp1 → next,
+temp1 to newNode → previous, temp2 to
+newNode → nextand newNode to temp2 → previous.
+3.Deletion
+In a double linked list, the deletion operation can be performed in three ways as follows...
+3.1 Deleting from Beginning of the list
+3.2 Deleting from End of the list
+3.3 Deleting a Specific Node
+Department of CSE Page 16
+Data Structures Lab Using C++ 2019-2020
+3.1 Deleting from Beginning of the list
+We can use the following steps to delete a node from beginning of the double linked list...
+Step 1 - Check whether list is Empty (head == NULL)
+Step 2 - If it is Empty then, display 'List is Empty!!! Deletion is not possible' and
+terminate the function.
+Step 3 - If it is not Empty then, define a Node pointer 'temp' and initialize with head.
+Step 4 - Check whether list is having only one node (temp → previous is equal to
+temp → next)
+Step 5 - If it is TRUE, then set head to NULL and delete temp (Setting Empty
+list conditions)
+Step 6 - If it is FALSE, then assign temp → next to head, NULL to
+head → previous and delete temp.
+3.2 Deleting from End of the list
+We can use the following steps to delete a node from end of the double linked list...
+Step 1 - Check whether list is Empty (head == NULL)
+Step 2 - If it is Empty, then display 'List is Empty!!! Deletion is not possible' and
+terminate the function.
+Step 3 - If it is not Empty then, define a Node pointer 'temp' and initialize with head.
+Step 4 - Check whether list has only one Node (temp → previous and
+temp → next both are NULL)
+Step 5 - If it is TRUE, then assign NULL to head and delete temp. And terminate from
+the function. (Setting Empty list condition)
+Step 6 - If it is FALSE, then keep moving temp until it reaches to the last node in the
+Department of CSE Page 17
+Data Structures Lab Using C++ 2019-2020
+list. (until temp → next is equal to NULL)
+Step 7 - Assign NULL to temp → previous → next and delete temp.
+3.3 Deleting a Specific Node from the list
+We can use the following steps to delete a specific node from the double linked list...
+Step 1 - Check whether list is Empty (head == NULL)
+Step 2 - If it is Empty then, display 'List is Empty!!! Deletion is not possible' and
+terminate the function.
+Step 3 - If it is not Empty, then define a Node pointer 'temp' and initialize with head.
+Step 4 - Keep moving the temp until it reaches to the exact node to be deleted or to the
+last node.
+Step 5 - If it is reached to the last node, then display 'Given node not found in the list!
+Deletion not possible!!!' and terminate the fuction.
+Step 6 - If it is reached to the exact node which we want to delete, then check whether list
+is having only one node or not
+Step 7 - If list has only one node and that is the node which is to be deleted then
+set head to NULL and delete temp (free(temp)).
+Step 8 - If list contains multiple nodes, then check whether temp is the first node in the
+list (temp == head).
+Step 9 - If temp is the first node, then move the head to the next node (head = head →
+next), set head of previous to NULL (head → previous = NULL) and
+delete temp.
+Step 10 - If temp is not the first node, then check whether it is the last node in the list
+(temp → next == NULL).
+Department of CSE Page 18
+Data Structures Lab Using C++ 2019-2020
+Step 11 - If temp is the last node then set temp of previous of next to NULL
+(temp → previous → next = NULL) and delete temp(free(temp)).
+Step 12 - If temp is not the first node and not the last node, then set temp of previous
+of next to temp of next (temp → previous → next = temp→next),temp
+of next of previous to temp of previous (temp → next → previous = temp →
+previous) and delete temp(free(temp)).
+4.Displaying
+We can use the following steps to display the elements of a double linked list...
+Step 1 - Check whether list is Empty (head == NULL)
+Step 2 - If it is Empty, then display 'List is Empty!!!' and terminate the function.
+Step 3 - If it is not Empty, then define a Node pointer 'temp' and initialize with head.
+Step 4 - Display 'NULL <--- '.
+Step 5 - Keep displaying temp → data with an arrow (<===>) until temp reaches to the
+last node
+Step 6 - Finally, display temp → data with arrow pointing to NULL
+(temp → data ---> NULL).
+Source Code: To implement Doubly Linked List
+#include<iostream.h>
+#include<conio.h>
+void insertAtBeginning(int);
+void insertAtEnd(int);
+void insertAtAfter(int,int);
+void deleteBeginning();
+void deleteEnd();
+void deleteSpecific(int);
+void display();
+struct Node
+{
+int data;
+struct Node *previous, *next;
+}*head = NULL;
+Department of CSE Page 19
+Data Structures Lab Using C++ 2019-2020
+void main()
+{
+int choice1, choice2, value, location;
+clrscr();
+while(1)
+{
+cout<<"\n*********** MENU *************\n");
+cout<<"1. Insert\n2. Delete\n3. Display\n4. Exit\nEnter your choice: ";
+cin>>choice1;
+switch(choice1)
+{
+case 1: cout<<"Enter the value to be inserted: ";
+cin>>value;
+while(1)
+{
+cout<<"\nSelect from the following Inserting options\n";
+cout<<"1. At Beginning\n2. At End\n3. After a Node\n4. Cancel\nEnter
+your choice: ";
+cin>>choice2;
+switch(choice2)
+{
+case 1: insertAtBeginning(value);
+break;
+case 2: insertAtEnd(value);
+break;
+case 3: cout<<"Enter the location after which you want to insert:";
+cin>>location;
+insertAfter(value,location);
+break;
+case 4: goto EndSwitch;
+default: cout<<"\nPlease select correct Inserting option!!!\n";
+}
+}
+case 2:
+while(1)
+{
+cout<<"\nSelect from the following Deleting options\n";
+cout<<"1. At Beginning\n2. At End\n3. Specific Node\n4.
+Cancel\nEnter your choice: ";
+cin>>choice2;
+switch(choice2)
+Department of CSE Page 20
+Data Structures Lab Using C++ 2019-2020
+{
+case 1: deleteBeginning();
+break;
+case 2: deleteEnd();
+break;
+case 3: cout<<"Enter the Node value to be deleted: ";
+cin>>location;
+deleteSpecic(location);
+break;
+case 4: goto EndSwitch;
+default: cout<<"\nPlease select correct Deleting option!!!\n";
+}
+}
+EndSwitch: break;
+case 3: display();
+break;
+case 4: exit(0);
+default: cout<<"\nPlease select correct option!!!";
+}
+}
+}
+void insertAtBeginning(int value)
+{
+struct Node *newNode;
+newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode -> data = value;
+newNode -> previous = NULL;
+if(head == NULL)
+{
+newNode -> next = NULL;
+head = newNode;
+}
+else
+{
+newNode -> next = head;
+head = newNode;
+}
+cout<<"\nInsertion success!!!";
+}
+void insertAtEnd(int value)
+{
+struct Node *newNode;
+newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode -> data = value;
+Department of CSE Page 21
+Data Structures Lab Using C++ 2019-2020
+newNode -> next = NULL;
+if(head == NULL)
+{
+newNode -> previous = NULL;
+head = newNode;
+}
+else
+{
+struct Node *temp = head;
+while(temp -> next != NULL)
+temp = temp -> next;
+temp -> next = newNode;
+newNode -> previous = temp;
+}
+cout<<"\nInsertion success!!!";
+}
+void insertAfter(int value, int location)
+{
+struct Node *newNode;
+newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode -> data = value;
+if(head == NULL)
+{
+newNode -> previous = newNode -> next = NULL;
+head = newNode;
+}
+else
+{
+struct Node *temp1 = head, temp2;
+while(temp1 -> data != location)
+{
+if(temp1 -> next == NULL)
+{
+cout<<"Given node is not found in the list!!!";
+goto EndFunction;
+}
+else
+{
+temp1 = temp1 -> next;
+}
+}
+temp2 = temp1 -> next;
+temp1 -> next = newNode;
+newNode -> previous = temp1;
+Department of CSE Page 22
+Data Structures Lab Using C++ 2019-2020
+newNode -> next = temp2;
+temp2 -> previous = newNode;
+cout<<"\nInsertion success!!!";
+}
+EndFunction:
+}
+void deleteBeginning()
+{
+if(head == NULL)
+cout<<"List is Empty!!! Deletion not possible!!!";
+else
+{
+struct Node *temp = head;
+if(temp -> previous == temp -> next)
+{
+head = NULL;
+free(temp);
+}
+else
+{
+head = temp -> next;
+head -> previous = NULL;
+free(temp);
+}
+cout<<"\nDeletion success!!!";
+}
+}
+void deleteEnd()
+{
+if(head == NULL)
+cout<<”List is Empty!!! Deletion not possible!!!";
+else
+{
+struct Node *temp = head;
+if(temp -> previous == temp -> next)
+{
+head = NULL;
+free(temp);
+}
+else
+{
+while(temp -> next != NULL)
+temp = temp -> next;
+temp -> previous -> next = NULL;
+Department of CSE Page 23
+Data Structures Lab Using C++ 2019-2020
+free(temp);
+}
+cout<<"\nDeletion success!!!";
+}
+}
+void deleteSpecific(int delValue)
+{
+if(head == NULL)
+cout<<"List is Empty!!! Deletion not possible!!!";
+else
+{
+struct Node *temp = head;
+while(temp -> data != delValue)
+{
+if(temp -> next == NULL)
+{
+cout<<"\nGiven node is not found in the list!!!";
+goto FuctionEnd;
+}
+else
+{
+temp = temp -> next;
+}
+}
+if(temp == head)
+{
+head = NULL;
+free(temp);
+}
+else
+{
+temp -> previous -> next = temp -> next;
+free(temp);
+}
+cout<<"\nDeletion success!!!";
+}
+FuctionEnd:
+}
+void display()
+{
+if(head == NULL)
+cout<<"\nList is Empty!!!";
+else
+{
+Department of CSE Page 24
+Data Structures Lab Using C++ 2019-2020
+struct Node *temp = head;
+cout<<"\nList elements are: \n";
+cout<<"NULL <--- ";
+while(temp -> next != NULL)
+{
+cout<<temp -> data<<”\t”;
+}
+cout<<temp -> data;
+}
+}
+Output:
+Signature of the Faculty
+Department of CSE Page 25
+Data Structures Lab Using C++ 2019-2020
+WEEK-3 DATE:
+Aim: Write a program that uses functions to perform the following operations on circular
+linked List
+(i)Creation (ii) Insertion (iii) Deletion (iv) Traversal.
+Description:
+Circular Linked List
+In single linked list, every node points to its next node in the sequence and the last node points
+NULL. But in circular linked list, every node points to its next node in the sequence but the last
+node points to the first node in the list.
+A circular linked list is a sequence of elements in which every element has a link to its next
+element in the sequence and the last element has a link to the first element.
+That means circular linked list is similar to the single linked list except that the last node points
+to the first node in the list
+Example:
+Operations
+In a circular linked list, we perform the following operations...
+1. Creation
+2. Insertion
+3. Deletion
+4. Display
+1.Creation
+Step 1 - Define a Node structure with two members data and next
+Step 2 - Define a Node pointer 'head' and set it to NULL.
+2.Insertion
+In a circular linked list, the insertion operation can be performed in three ways. They are as
+follows...
+2.1 Inserting At Beginning of the list
+2.2 Inserting At End of the list
+2.3 Inserting At Specific location in the list
+Department of CSE Page 26
+Data Structures Using C++ Lab 2019-2020
+2.1 Inserting At Beginning of the list
+We can use the following steps to insert a new node at beginning of the circular linked list...
+Step 1 - Create a newNode with given value.
+Step 2 - Check whether list is Empty (head == NULL)
+Step 3 - If it is Empty then, set head = newNode and newNode→next = head .
+Step 4 - If it is Not Empty then, define a Node pointer 'temp' and initialize with 'head'.
+Step 5 - Keep moving the 'temp' to its next node until it reaches to the last node (until
+'temp → next == head').
+Step 6 - Set 'newNode → next =head', 'head = newNode' and 'temp → next = head'.
+2.2 Inserting At End of the list
+We can use the following steps to insert a new node at end of the circular linked list...
+Step 1 - Create a newNode with given value.
+Step 2 - Check whether list is Empty (head == NULL).
+Step 3 - If it is Empty then, set head = newNode and newNode → next = head.
+Step 4 - If it is Not Empty then, define a node pointer temp and initialize with head.
+Step 5 - Keep moving the temp to its next node until it reaches to the last node in the list
+(until temp → next == head).
+Step 6 - Set temp → next = newNode and newNode → next = head.
+2.3 Inserting At Specific location in the list (After a Node)
+We can use the following steps to insert a new node after a node in the circular linked list...
+Step 1 - Create a newNode with given value.
+Step 2 - Check whether list is Empty (head == NULL)
+Step 3 - If it is Empty then, set head = newNode and newNode → next = head.
+Step 4 - If it is Not Empty then, define a node pointer temp and initialize with head.
+Step 5 - Keep moving the temp to its next node until it reaches to the node after which
+Department of CSE Page 27
+Data Structures Lab Using C++ 2019-2020
+we want to insert the newNode (until temp1 → data is equal to location, here
+location is the node value after which we want to insert the newNode).
+Step 6 - Every time check whether temp is reached to the last node or not. If it is reached
+to last node then display 'Given node is not found in the list!!! Insertion not
+possible!!!' and terminate the function. Otherwise move the temp to next node.
+Step 7 - If temp is reached to the exact node after which we want to insert the newNode
+then check whether it is last node (temp → next == head).
+Step 8 - If temp is last node then set temp → next = newNode and newNode →
+next = head.
+Step 9 - If temp is not last node then set newNode → next = temp → next and temp →
+next = newNode.
+3. Deletion
+In a circular linked list, the deletion operation can be performed in three ways those are as
+follows...
+3.1 Deleting from Beginning of the list
+3.2 Deleting from End of the list
+3.3 Deleting a Specific Node
+3.1 Deleting from Beginning of the list
+We can use the following steps to delete a node from beginning of the circular linked list...
+Step 1 - Check whether list is Empty (head == NULL)
+Step 2 - If it is Empty then, display 'List is Empty!!! Deletion is not possible' and
+terminate the function.
+Step 3 - If it is Not Empty then, define two Node pointers 'temp1' and 'temp2' and
+initialize both 'temp1' and 'temp2' with head.
+Step 4 - Check whether list is having only one node (temp1 → next == head)
+Department of CSE Page 28
+Data Structures Lab Using C++ 2019-2020
+Step 5 - If it is TRUE then set head = NULL and delete temp1 (Setting Empty list
+conditions)
+Step 6 - If it is FALSE move the temp1 until it reaches to the last node.
+(until temp1 → next == head )
+Step 7 - Then set head = temp2 → next, temp1 → next = head and delete temp2.
+3.2 Deleting from End of the list
+We can use the following steps to delete a node from end of the circular linked list...
+Step 1 - Check whether list is Empty (head == NULL)
+Step 2 - If it is Empty then, display 'List is Empty!!! Deletion is not possible' and
+terminate the function.
+Step 3 - If it is Not Empty then, define two Node pointers 'temp1' and 'temp2' and
+initialize 'temp1' with head.
+Step 4 - Check whether list has only one Node (temp1 → next == head)
+Step 5 - If it is TRUE. Then, set head = NULL and delete temp1. And terminate from
+the function. (Setting Empty list condition)
+Step 6 - If it is FALSE. Then, set 'temp2 = temp1 ' and move temp1 to its next node.
+Repeat the same until temp1 reaches to the last node in the list. (until temp1 →
+next == head)
+Step 7 - Set temp2 → next = head and delete temp1.
+3.3 Deleting a Specific Node from the list
+We can use the following steps to delete a specific node from the circular linked list...
+Step 1 - Check whether list is Empty (head == NULL)
+Step 2 - If it is Empty then, display 'List is Empty!!! Deletion is not possible' and
+Department of CSE Page 29
+Data Structures Lab Using C++ 2019-2020
+terminate the function.
+Step 3 - If it is Not Empty then, define two Node pointers 'temp1' and 'temp2' and
+initialize 'temp1' with head.
+Step 4 - Keep moving the temp1 until it reaches to the exact node to be deleted or to the
+last node. And every time set 'temp2 = temp1' before moving the 'temp1' to its
+next node.
+Step 5 - If it is reached to the last node then display 'Given node not found in the list!
+Deletion not possible!!!'. And terminate the function.
+Step 6 - If it is reached to the exact node which we want to delete, then check whether list
+is having only one node (temp1 → next== head)
+Step 7 - If list has only one node and that is the node to be deleted then
+set head = NULL and delete temp1 (free(temp1)).
+Step 8 - If list contains multiple nodes then check whether temp1 is the first node in the
+list (temp1 == head).
+Step 9 - If temp1 is the first node then set temp2 = head and keep moving temp2 to its
+next node until temp2 reaches to the last node. Then set head = head →
+next, temp2 → next = head and delete temp1.
+Step 10 - If temp1 is not first node then check whether it is last node in the list
+(temp1 → next == head).
+Step 1 1- If temp1 is last node then set temp2 → next = head and
+delete temp1 (free(temp1)).
+Step 12 - If temp1 is not first node and not last node then set
+temp2 → next = temp1 → next and delete temp1 (free(temp1)).
+Department of CSE Page 30
+Data Structures Lab Using C++ 2019-2020
+4.Displaying a Circular Linked List
+We can use the following steps to display the elements of a circular linked list...
+Step 1 - Check whether list is Empty (head == NULL)
+Step 2 - If it is Empty, then display 'List is Empty!!!' and terminate the function.
+Step 3 - If it is Not Empty then, define a Node pointer 'temp' and initialize with head.
+Step 4 - Keep displaying temp → data with an arrow (--->) until temp reaches to the last
+node
+Step 5 - Finally display temp → data with arrow pointing to head → data.
+Source Code: To implement Circular Linked List.
+#include<iostream.h>
+#include<conio.h>
+void insertAtBeginning(int);
+void insertAtEnd(int);
+void insertAtAfter(int,int);
+void deleteBeginning();
+void deleteEnd();
+void deleteSpecific(int);
+void display();
+struct Node
+{
+int data;
+struct Node *next;
+}*head = NULL;
+void main()
+{
+int choice1, choice2, value, location;
+clrscr();
+while(1)
+{
+cout<<"\n*********** MENU *************\n";
+cout<<"1. Insert\n2. Delete\n3. Display\n4. Exit\nEnter your choice: ";
+cin>>choice1;
+switch(choice1)
+{
+Department of CSE Page 31
+Data Structures Lab Using C++ 2019-2020
+case 1: cout<<"Enter the value to be inserted: ";
+cin>>value;
+while(1)
+{
+cout<<"\nSelect from the following Inserting options\n";
+cout<<"1. At Beginning\n2. At End\n3. After a Node\n4. Cancel\nEnter
+your choice: ";
+cin>>choice2;
+switch(choice2)
+{
+case 1: insertAtBeginning(value);
+break;
+case 2: insertAtEnd(value);
+break;
+case 3: cout<<"Enter the location after which you want to insert:";
+cin>>location;
+insertAfter(value,location);
+break;
+case 4: goto EndSwitch;
+default: cout<<"\nPlease select correct Inserting option!!!\n";
+}
+}
+case 2: while(1)
+{
+cout<<"\nSelect from the following Deleting options\n";
+cout<<"1. At Beginning\n2. At End\n3. Specific Node\n4.
+Cancel\nEnter your choice: ";
+cin>>choice2;
+switch(choice2)
+{
+case 1: deleteBeginning();
+break;
+case 2: deleteEnd();
+break;
+case 3: cout<<"Enter the Node value to be deleted: ";
+cin>>location;
+deleteSpecic(location);
+break;
+case 4: goto EndSwitch;
+default: cout<<"\nPlease select correct Deleting option!!!\n";
+}
+}
+Department of CSE Page 32
+Data Structures Lab Using C++ 2019-2020
+EndSwitch: break;
+case 3: display();
+break;
+case 4: exit(0);
+default: cout<<"\nPlease select correct option!!!";
+}
+}
+}
+void insertAtBeginning(int value)
+{
+struct Node *newNode;
+newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode -> data = value;
+if(head == NULL)
+{
+head = newNode;
+newNode -> next = head;
+}
+else
+{
+struct Node *temp = head;
+while(temp -> next != head)
+temp = temp -> next;
+newNode -> next = head;
+head = newNode;
+temp -> next = head;
+}
+cout<<"\nInsertion success!!!";
+}
+void insertAtEnd(int value)
+{
+struct Node *newNode;
+newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode -> data = value;
+if(head == NULL)
+{
+head = newNode;
+newNode -> next = head;
+}
+else
+{
+struct Node *temp = head;
+while(temp -> next != head)
+Department of CSE Page 33
+Data Structures Lab Using C++ 2019-2020
+temp = temp -> next;
+temp -> next = newNode;
+newNode -> next = head;
+}
+cout<<"\nInsertion success!!!";
+}
+void insertAfter(int value, int location)
+{
+struct Node *newNode;
+newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode -> data = value;
+if(head == NULL)
+{
+head = newNode;
+newNode -> next = head;
+}
+else
+{
+struct Node *temp = head;
+while(temp -> data != location)
+{
+if(temp -> next == head)
+{
+cout<<"Given node is not found in the list!!!";
+goto EndFunction;
+}
+else
+{
+temp = temp -> next;
+}
+}
+newNode -> next = temp -> next;
+temp -> next = newNode;
+cout<<"\nInsertion success!!!";
+}
+EndFunction:
+}
+void deleteBeginning()
+{
+if(head == NULL)
+cout<<"List is Empty!!! Deletion not possible!!!";
+else
+{
+struct Node *temp = head;
+Department of CSE Page 34
+Data Structures Lab Using C++ 2019-2020
+if(temp -> next == head)
+{
+head = NULL;
+free(temp);
+}
+else
+{
+head = head -> next;
+free(temp);
+}
+cout<<"\nDeletion success!!!";
+}
+}
+void deleteEnd()
+{
+if(head == NULL)
+cout<<"List is Empty!!! Deletion not possible!!!";
+else
+{
+struct Node *temp1 = head, temp2;
+if(temp1 -> next == head)
+{
+head = NULL;
+free(temp1);
+}
+else
+{
+while(temp1 -> next != head){
+temp2 = temp1;
+temp1 = temp1 -> next;
+}
+temp2 -> next = head;
+free(temp1);
+}
+cout<<"\nDeletion success!!!";
+}
+}
+void deleteSpecific(int delValue)
+{
+if(head == NULL)
+cout<<"List is Empty!!! Deletion not possible!!!";
+else
+{
+struct Node *temp1 = head, temp2;
+while(temp1 -> data != delValue)
+Department of CSE Page 35
+Data Structures Lab Using C++ 2019-2020
+{
+if(temp1 -> next == head)
+{
+cout<<"\nGiven node is not found in the list!!!";
+goto FuctionEnd;
+}
+else
+{
+temp2 = temp1;
+temp1 = temp1 -> next;
+}
+}
+if(temp1 -> next == head)
+{
+head = NULL;
+free(temp1);
+}
+else
+{
+if(temp1 == head)
+{
+temp2 = head;
+while(temp2 -> next != head)
+temp2 = temp2 -> next;
+head = head -> next;
+temp2 -> next = head;
+free(temp1);
+}
+else
+{
+if(temp1 -> next == head)
+{
+temp2 -> next = head;
+}
+else
+{
+temp2 -> next = temp1 -> next;
+}
+free(temp1);
+}
+}
+cout<<"\nDeletion success!!!";
+}
+FuctionEnd:
+Department of CSE Page 36
+Data Structures Lab Using C++ 2019-2020
+}
+void display()
+{
+if(head == NULL)
+cout<<"\nList is Empty!!!";
+else
+{
+struct Node *temp = head;
+cout<<"\nList elements are: \n";
+while(temp -> next != head)
+{
+cout<<temp -> data;
+}
+cout<< temp -> data, head -> data;
+}
+}
+Output:
+Signature of the Faculty
+Department of CSE Page 37
+Data Structures Lab Using C++ 2019-2020
+WEEk-4 DATE:
+Aim:Write a program that implement stack (its operations) using
+(i)Arrays (ii)Linked list(Pointers).
+Description:
+Stack
+Stack is a linear data structure in which the insertion and deletion operations are
+performed at only one end. In a stack, adding and removing of elements are performed at a single
+position which is known as "top".
+That means, a new element is added at top of the stack and an element is removed from
+the top of the stack. In stack, the insertion and deletion operations are performed based
+on LIFO(Last In First Out) principle.
+In a stack, the insertion operation is performed using a function called "push" and
+deletion operation is performed using a function called "pop".
+In the figure, PUSH and POP operations are performed at a top position in the stack. That
+means, both the insertion and deletion operations are performed at one end (i.e., at Top).
+A stack data structure can be defined as follows...
+Stack is a linear data structure in which the operations are performed based on LIFO
+principle.
+Stack can also be defined as
+"A Collection of similar data items in which both insertion and deletion operations are
+performed based on LIFO principle".
+Example
+If we want to create a stack by inserting 10,45,12,16,35 and 50. Then 10 becomes the
+bottom-most element and 50 is the topmost element. The last inserted element 50 is at Top of the
+stack as shown in the image below...
+Department of CSE Page 38
+Data Structures Lab Using C++ 2019-2020
+Operations on a Stack
+The following operations are performed on the stack...
+1. Push (To insert an element on to the stack)
+2. Pop (To delete an element from the stack)
+3. Display (To display elements of the stack)
+Stack data structure can be implemented in two ways. They are as follows...
+1. Using Arrays
+2. Using Linked List
+Stack Using Arrays
+A stack data structure can be implemented using a one-dimensional array. But stack
+implemented using array stores only a fixed number of data values. This implementation is very
+simple. Just define a one dimensional array of specific size and insert or delete the values into
+that array by using LIFO principle with the help of a variable called 'top'.
+Initially, the top is set to -1. Whenever we want to insert a value into the stack, increment
+the top value by one and then insert. Whenever we want to delete a value from the stack, then
+delete the top value and decrement the top value by one.
+Stack Operations
+We can Perform the following Operations on Stack
+1.Push()
+2.Pop()
+3.Display()
+A stack can be implemented using array as follows...
+Before implementing actual operations, first follow the below steps to create an empty stack.
+Step 1 - Include all the header files which are used in the program and define a
+constant 'SIZE' with specific value.
+Step 2 - Declare all the functions used in stack implementation.
+Step 3 - Create a one dimensional array with fixed size (int stack[SIZE])
+Step 4 - Define a integer variable 'top' and initialize with '-1'. (int top = -1)
+Step 5 - In main method, display menu with list of operations and make suitable function
+calls to perform operation selected by the user on the stack.
+Department of CSE Page 39
+Data Structures Lab Using C++ 2019-2020
+1.Push(value) - Inserting value into the stack
+In a stack, push() is a function used to insert an element into the stack. In a stack, the new
+element is always inserted at top position. Push function takes one integer value as parameter
+and inserts that value into the stack.
+We can use the following steps to push an element on to the stack...
+Step 1 - Check whether stack is FULL. (top == SIZE-1)
+Step 2 - If it is FULL, then display "Stack is FULL!!! Insertion is not possible!!!" and
+terminate the function.
+Step 3 - If it is NOT FULL, then increment top value by one (top++) and set stack[top]
+to value (stack[top] = value).
+2.Pop() - Delete a value from the Stack
+In a stack, pop() is a function used to delete an element from the stack. In a stack, the
+element is always deleted from top position. Pop function does not take any value as parameter.
+We can use the following steps to pop an element from the stack...
+Step 1 - Check whether stack is EMPTY. (top == -1)
+Step 2 - If it is EMPTY, then display "Stack is EMPTY!!! Deletion is not
+possible!!!" and terminate the function.
+Step 3 - If it is NOT EMPTY, then delete stack[top] and decrement top value by one
+(top--).
+3.Display() - Displays the Elements of a Stack
+We can use the following steps to display the elements of a stack...
+Step 1 - Check whether stack is EMPTY. (top == -1)
+Step 2 - If it is EMPTY, then display "Stack is EMPTY!!!" and terminate the function.
+Step 3 - If it is NOT EMPTY, then define a variable 'i' and initialize with top.
+Display stack[i] value and decrement i value by one (i--).
+Step 4 - Repeat above step until i value becomes '0'.
+Source Code: To implement Stack Using Arrays
+#include<iostream.h>
+Department of CSE Page 40
+Data Structures Lab Using C++ 2019-2020
+#include<conio.h>
+#define SIZE 10
+void push(int);
+void pop();
+void display();
+int stack[SIZE], top = -1;
+void main()
+{
+int value, choice;
+clrscr();
+while(1){
+cout<<"\n\n***** MENU *****\n";
+cout<<"1. Push\n2. Pop\n3. Display\n4. Exit";
+cout<<"\nEnter your choice: ";
+cin>>choice;
+switch(choice)
+{
+case 1: cout<<"Enter the value to be insert: ";
+cin>>value;
+push(value);
+break;
+case 2: pop();
+break;
+Department of CSE Page 41
+Data Structures Lab Using C++ 2019-2020
+case 3: display();
+break;
+case 4: exit(0);
+default: cout<<"\nWrong selection!!! Try again!!!";
+}
+}
+}
+void push(int value)
+{
+if(top == SIZE-1)
+cout<<"\nStack is Full!!! Insertion is not possible!!!";
+else
+{
+top++;
+stack[top] = value;
+cout<<"\nInsertion success!!!";
+}
+}
+void pop()
+{
+if(top == -1)
+cout<<"\nStack is Empty!!! Deletion is not possible!!!";
+Department of CSE Page 42
+Data Structures Lab Using C++ 2019-2020
+else
+{
+cout<<"\nDeleted :"<<stack[top]);
+top--;
+}
+}
+void display()
+{
+if(top == -1)
+cout<<"\nStack is Empty!!!";
+else
+{
+int i;
+cout<<"\nStack elements are:\n";
+for(i=top; i>=0; i--)
+cout<<stack[i];
+}
+}
+Output:
+Signature of the Faculty
+Department of CSE Page 43
+Data Structures Lab Using C++ 2019-2020
+(ii) Stack Using Linked List
+The major problem with the stack implemented using an arrays is, it works only for a
+fixed number of data values. That means the amount of data must be specified at the beginning
+of the implementation itself.
+Stack implemented using an array is not suitable, when we don't know the size of data
+which we are going to use. A stack data structure can be implemented by using a linked list data
+structure.
+The stack implemented using linked list can work for an unlimited number of values.
+That means, stack implemented using linked list works for the variable size of data. So, there is
+no need to fix the size at the beginning of the implementation. The Stack implemented using
+linked list can organize as many data values as we want.
+In linked list implementation of a stack, every new element is inserted as 'top' element.
+That means every newly inserted element is pointed by 'top'. Whenever we want to remove an
+element from the stack, simply remove the node which is pointed by 'top' by moving 'top' to its
+previous node in the list. The next field of the first element must be always NULL.
+Example
+In the above example, the last inserted node is 99 and the first inserted node is 25. The order of
+elements inserted is 25, 32,50 and 99.
+Stack Operations using Linked List
+We can Perform the Following Operations on Stack Using Linked List (i.e)
+1. Push()
+2. Pop()
+3. Display()
+To implement a stack using a linked list, we need to set the following things before
+implementing actual operations.
+Step 1 - Include all the header files which are used in the program. And declare all
+the user defined functions.
+Step 2 - Define a 'Node' structure with two members data and next.
+Step 3 - Define a Node pointer 'top' and set it to NULL.
+Step 4 - Implement the main method by displaying Menu with list of operations and
+Department of CSE Page 44
+Data Structures Lab Using C++ 2019-2020
+make suitable function calls in the mainmethod.
+1.Push(value) - Inserting an element into the Stack
+We can use the following steps to insert a new node into the stack...
+Step 1 - Create a newNode with given value.
+Step 2 - Check whether stack is Empty (top == NULL)
+Step 3 - If it is Empty, then set newNode → next = NULL.
+Step 4 - If it is Not Empty, then set newNode → next = top.
+Step 5 - Finally, set top = newNode.
+2.Pop() - Deleting an Element from a Stack
+We can use the following steps to delete a node from the stack...
+Step 1 - Check whether stack is Empty (top == NULL).
+Step 2 - If it is Empty, then display "Stack is Empty!!! Deletion is not possible!!!" and
+terminate the function
+Step 3 - If it is Not Empty, then define a Node pointer 'temp' and set it to 'top'.
+Step 4 - Then set 'top = top → next'.
+Step 5 - Finally, delete 'temp'. (free(temp)).
+3.Display() - Displaying stack of elements
+We can use the following steps to display the elements (nodes) of a stack...
+Step 1 - Check whether stack is Empty (top == NULL).
+Step 2 - If it is Empty, then display 'Stack is Empty!!!' and terminate the function.
+Step 3 - If it is Not Empty, then define a Node pointer 'temp' and initialize with top.
+Step 4 - Display 'temp → data --->' and move it to the next node. Repeat the same
+until temp reaches to the first node in the stack. (temp → next != NULL).
+Step 5 - Finally! Display 'temp → data ---> NULL'.
+Department of CSE Page 45
+Source Code: To Implement Stack Using Linked List
+Data Structures Lab Using C++ 2019-2020
+#include<iostream.h>
+#include<conio.h>
+struct Node
+{
+int data;
+struct Node *next;
+}*top = NULL;
+void push(int);
+void pop();
+void display();
+void main()
+{
+int choice, value;
+clrscr();
+cout<<"\n:: Stack using Linked List ::\n";
+while(1)
+{
+cout<<"\n****** MENU ******\n";
+cout<<"1. Push\n2. Pop\n3. Display\n4. Exit\n";
+cout<<"Enter your choice: ";
+cin>>choice;
+switch(choice)
+{
+case 1: cout<<"Enter the value to be insert: ";
+cin>>value;
+push(value);
+break;
+case 2: pop();
+break;
+case 3: display(); break;
+case 4: exit(0);
+default: cout<<"\nWrong selection!!! Please try again!!!\n";
+}
+Department of CSE Page 46
+D a t }a Structures Lab Using C++ 2019-2020
+}
+void push(int value)
+{
+struct Node *newNode;
+newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode->data = value;
+if(top == NULL)
+newNode->next = NULL;
+else
+newNode->next = top;
+top = newNode;
+cout<<"\nInsertion is Success!!!\n";
+}
+void pop()
+{
+if(top == NULL)
+cout<<"\nStack is Empty!!!\n";
+else
+{
+struct Node *temp = top;
+cout<<"\nDeleted element:", temp->data;
+top = temp->next;
+free(temp);
+}
+}
+void display()
+{
+if(top == NULL)
+cout<<"\nStack is Empty!!!\n";
+else
+{
+struct Node *temp = top;
+while(temp->next != NULL)
+Department of CSE Page 47
+Data Structures Lab Using C++ 2019-2020
+{
+cout<<temp->data;
+temp = temp -> next;
+}
+cout<<temp->data;
+}
+}
+Output:
+Signature of the Faculty
+Department of CSE Page 48
+Data Structures Lab Using C++ 2019-2020
+WEEK-5 DATE:
+Aim: Write a program that implement Queue (its operations) using
+(i)Arrays (ii)Linked list(Pointers).
+Description:
+Queue Using Arrays
+A queue data structure can be implemented using one dimensional array. The queue
+implemented using array stores only fixed number of data values.
+The implementation of queue data structure using array is very simple. Just define a one
+dimensional array of specific size and insert or delete the values into that array by using FIFO
+(First In First Out) principle with the help of variables 'front' and 'rear'. Initially both 'front'
+and 'rear' are set to -1.
+Whenever, we want to insert a new value into the queue, increment 'rear' value by one
+and then insert at that position. Whenever we want to delete a value from the queue, then delete
+the element which is at 'front' position and increment 'front' value by one.
+Queue Operations using Array
+We can Perform the following operations on Queue
+1.enQueue()
+2.deQueue()
+3.Display()
+Before we implement actual operations, first follow the below steps to create an empty queue.
+Step 1 - Include all the header files which are used in the program and define a
+constant 'SIZE' with specific value.
+Step 2 - Declare all the user defined functions which are used in queue
+implementation.
+Step 3 - Create a one dimensional array with above defined SIZE (int
+queue[SIZE]).
+Step 4 - Define two integer variables 'front' and 'rear' and initialize both with '-1'.
+(int front = -1, rear = -1).
+Step 5 - Then implement main method by displaying menu of operations list and make
+Department of CSE Page 49
+Data Structures Lab Using C++ 2019-2020
+suitable function calls to perform operation selected by the user on queue.
+1.enQueue(value) - Inserting value into the queue
+In a queue data structure, enQueue() is a function used to insert a new element into the
+queue. In a queue, the new element is always inserted at rear position. The enQueue() function
+takes one integer value as a parameter and inserts that value into the queue. We can use the
+following steps to insert an element into the queue...
+Step 1 - Check whether queue is FULL. (rear == SIZE-1)
+Step 2 - If it is FULL, then display "Queue is FULL!!! Insertion is not
+possible!!!" and terminate the function.
+Step 3 - If it is NOT FULL, then increment rear value by one (rear++) and
+set queue[rear] = value.
+2.deQueue() - Deleting a value from the Queue
+In a queue data structure, deQueue() is a function used to delete an element from the
+queue. In a queue, the element is always deleted from front position. The deQueue() function
+does not take any value as parameter. We can use the following steps to delete an element from
+the queue...
+Step 1 - Check whether queue is EMPTY. (front == rear)
+Step 2 - If it is EMPTY, then display "Queue is EMPTY!!! Deletion is not
+possible!!!" and terminate the function.
+Step 3 - If it is NOT EMPTY, then increment the front value by one (front ++). Then
+display queue[front] as deleted element. Then check whether
+both front and rear are equal (front == rear), if it TRUE, then set
+both front and rear to '-1' (front = rear = -1).
+3.Display() - Displays the elements of a Queue
+We can use the following steps to display the elements of a queue...
+Department of CSE Page 50
+Data Structures Lab Using C++ 2019-2020
+Step 1 - Check whether queue is EMPTY. (front == rear)
+Step 2 - If it is EMPTY, then display "Queue is EMPTY!!!" and terminate the
+function.
+Step 3 - If it is NOT EMPTY, then define an integer variable 'i' and set 'i = front+1'.
+Step 4 - Display 'queue[i]' value and increment 'i' value by one (i++). Repeat the same
+until 'i' value reaches to rear (i <= rear).
+Source Code: To implement Queue using Arrays
+#include<iostream.h>
+#include<conio.h>
+#define SIZE 10
+void enQueue(int);
+void deQueue();
+void display();
+int queue[SIZE], front = -1, rear = -1;
+void main()
+{
+int value, choice;
+clrscr();
+while(1){
+cout<<"\n\n***** MENU *****\n";
+cout<<"1. Insertion\n2. Deletion\n3. Display\n4. Exit";
+cout<<"\nEnter your choice: ";
+cin>>choice;
+switch(choice){
+case 1: cout<<"Enter the value to be insert: ";
+cin>>value;
+enQueue(value);
+break;
+case 2: deQueue();
+break;
+case 3: display();
+break;
+Department of CSE Page 51
+Data Structures Lab Using C++ 2019-2020
+case 4: exit(0);
+default: cout<<"\nWrong selection!!! Try again!!!";
+}
+}
+}
+void enQueue(int value){
+if(rear == SIZE-1)
+cout<<"\nQueue is Full!!! Insertion is not possible!!!";
+else{
+if(front == -1)
+front = 0;
+rear++;
+queue[rear] = value;
+cout<<"\nInsertion success!!!";
+}
+}
+void deQueue()
+{
+if(front == rear)
+cout<<"\nQueue is Empty!!! Deletion is not possible!!!";
+else
+{
+cout<<"\nDeleted : %d", queue[front];
+front++;
+if(front == rear)
+front = rear = -1;
+}
+}
+void display()
+{
+if(rear == -1)
+cout<<"\nQueue is Empty!!!";
+else
+{
+int i;
+Department of CSE Page 52
+Data Structures Lab Using C++ 2019-2020
+cout<<"\nQueue elements are:\n";
+for(i=front; i<=rear; i++)
+cout<<queue[i];
+}
+}
+Output:
+Signature of the Faculty
+Department of CSE Page 53
+Data Structures Lab Using C++ 2019-2020
+II. Queue Using Linked List
+The major problem with the queue implemented using an array is, It will work for an
+only fixed number of data values. That means, the amount of data must be specified at the
+beginning itself. Queue using an array is not suitable when we don't know the size of data which
+we are going to use.
+A queue data structure can be implemented using a linked list data structure. The queue
+which is implemented using a linked list can work for an unlimited number of values. That
+means, queue using linked list can work for the variable size of data (No need to fix the size at
+the beginning of the implementation).
+The Queue implemented using linked list can organize as many data values as we want.
+In linked list implementation of a queue, the last inserted node is always pointed by 'rear' and
+the first node is always pointed by 'front'.
+Example
+In above example, the last inserted node is 50 and it is pointed by 'rear' and the first inserted
+node is 10 and it is pointed by 'front'. The order of elements inserted is 10, 15, 22 and 50.
+Queue Operations using Array
+We can Perform the following operations on Queue
+1.enQueue()
+2.deQueue()
+3.Display()
+To implement queue using linked list, we need to set the following things before implementing
+actual operations.
+Step 1 - Include all the header files which are used in the program. And declare
+all the user defined functions.
+Step 2 - Define a 'Node' structure with two members data and next.
+Step 3 - Define two Node pointers 'front' and 'rear' and set both to NULL.
+Step 4 - Implement the main method by displaying Menu of list of operations and
+make suitable function calls in the main method to perform user selected
+operation.
+Department of CSE Page 54
+Data Structures Lab Using C++ 2019-2020
+1.enQueue(value) - Inserting an element into the Queue
+We can use the following steps to insert a new node into the queue...
+Step 1 - Create a newNode with given value and set 'newNode → next' to NULL.
+Step 2 - Check whether queue is Empty (rear == NULL)
+Step 3 - If it is Empty then, set front = newNode and rear = newNode.
+Step 4 - If it is Not Empty then, set rear → next = newNode and rear = newNode.
+2.deQueue() - Deleting an Element from Queue
+We can use the following steps to delete a node from the queue...
+Step 1 - Check whether queue is Empty (front == NULL).
+Step 2 - If it is Empty, then display "Queue is Empty!!! Deletion is not
+possible!!!" and terminate from the function
+Step 3 - If it is Not Empty then, define a Node pointer 'temp' and set it to 'front'.
+Step 4 - Then set 'front = front → next' and delete 'temp' (free(temp)).
+3.Display() - Displaying the elements of Queue
+We can use the following steps to display the elements (nodes) of a queue...
+Step 1 - Check whether queue is Empty (front == NULL).
+Step 2 - If it is Empty then, display 'Queue is Empty!!!' and terminate the function.
+Step 3 - If it is Not Empty then, define a Node pointer 'temp' and initialize with front.
+Step 4 - Display 'temp → data --->' and move it to the next node. Repeat the same until
+'temp' reaches to 'rear' (temp → next != NULL).
+Step 5 - Finally! Display 'temp → data ---> NULL'.
+Source Code:To implement Queue using Linked List
+#include<iostream.h>
+#include<conio.h>
+Department of CSE Page 55
+Data Structures Lab Using C++ 2019-2020
+struct Node
+{
+int data;
+struct Node *next;
+}*front = NULL,*rear = NULL;
+void insert(int);
+void delete();
+void display();
+void main()
+{
+int choice, value;
+clrscr();
+cout<<"\n:: Queue Implementation using Linked List ::\n";
+while(1){
+cout<<"\n****** MENU ******\n";
+cout<<"1. Insert\n2. Delete\n3. Display\n4. Exit\n";
+cout<<"Enter your choice: ";
+cin>>choice);
+switch(choice){
+case 1: cout<<"Enter the value to be insert: ";
+cin>>value;
+insert(value);
+break;
+case 2: delete(); break;
+case 3: display(); break;
+case 4: exit(0);
+default: cout<<"\nWrong selection!!! Please try again!!!\n";
+}
+}
+}
+void insert(int value)
+{
+struct Node *newNode;
+newNode = (struct Node*)malloc(sizeof(struct Node));
+newNode->data = value;
+Department of CSE Page 56
+Data Structures Lab Using C++ 2019-2020
+newNode -> next = NULL;
+if(front == NULL)
+front = rear = newNode;
+else{
+rear -> next = newNode;
+rear = newNode;
+}
+cout<<"\nInsertion is Success!!!\n";
+}
+void delete()
+{
+if(front == NULL)
+cout<<"\nQueue is Empty!!!\n";
+else{
+struct Node *temp = front;
+front = front -> next;
+cout<<"\nDeleted element: %d\n", temp->data;
+free(temp);
+}
+}
+void display()
+{
+if(front == NULL)
+cout<<"\nQueue is Empty!!!\n";
+else{
+struct Node *temp = front;
+while(temp->next != NULL){
+cout<<temp->data;
+temp = temp -> next;
+}
+cout<<temp->data;
+}
+}
+Department of CSE Page 57
+Output:
+Signature of the Faculty
+Department of CSE Page 58
+Data Structures Lab Using C++ 2019-2020
+WEEK-6: DATE:
+(i)Write a program that implement Circular Queue (its operations) using Arrays .
+(ii)Write a program that use both recursive and non recursive functions to perform the following
+searching operations for a Key value in a given list of integers:
+a) Linear search b) Binary search.
+Aim:Write a program that implement Circular Queue (its operations) using Arrays .
+Description:
+Circular Queue
+In a normal Queue Data Structure, we can insert elements until queue becomes full. But
+once the queue becomes full, we can not insert the next element until all the elements are deleted
+from the
+The queue after inserting all the elements into it is as follows...
+Now consider the following situation after deleting three elements from the queue...
+This situation also says that Queue is Full and we cannot insert the new element because
+'rear' is still at last position. In the above situation, even though we have empty positions in the
+queue we can not make use of them to insert the new element. This is the major problem in a
+normal queue data structure. To overcome this problem we use a circular queue data structure.
+Circular Queue
+A Circular Queue can be defined as follows...
+A circular queue is a linear data structure in which the operations are performed based on
+FIFO (First In First Out) principle and the last position is connected back to the first
+position to make a circle.
+Graphical representation of a circular queue is as follows...
+Department of CSE Page 59
+Data Structures Lab Using C++ 2019-2020
+Implementation of Circular Queue
+To implement a circular queue data structure using an array, we first perform the
+following steps before we implement actual operations.
+Step 1 - Include all the header files which are used in the program and define a
+constant 'SIZE' with specific value.
+Step 2 - Declare all user defined functions used in circular queue
+implementation.
+Step 3 - Create a one dimensional array with above defined SIZE (int cQueue[SIZE])
+Step 4 - Define two integer variables 'front' and 'rear' and initialize both with '-1'.
+(int front = -1, rear = -1)
+Step 5 - Implement main method by displaying menu of operations list and make suitable
+function calls to perform operation selected by the user on circular queue.
+1.enQueue(value) - Inserting value into the Circular Queue
+In a circular queue, enQueue() is a function which is used to insert an element into the
+circular queue. In a circular queue, the new element is always inserted at rear position. The
+enQueue() function takes one integer value as parameter and inserts that value into the circular
+queue. We can use the following steps to insert an element into the circular queue...
+Step 1 - Check whether queue is FULL.
+((rear == SIZE-1 && front == 0) || (front == rear+1))
+Department of CSE Page 60
+Data Structures Lab Using C++ 2019-2020
+Step 2 - If it is FULL, then display "Queue is FULL!!! Insertion is not
+possible!!!" and terminate the function.
+Step 3 - If it is NOT FULL, then check rear == SIZE - 1 && front != 0 if it is TRUE,
+then set rear = -1.
+Step 4 - Increment rear value by one (rear++), set queue[rear] = value and check
+'front == -1' if it is TRUE, then set front = 0.
+2.deQueue() - Deleting a value from the Circular Queue
+In a circular queue, deQueue() is a function used to delete an element from the circular
+queue. In a circular queue, the element is always deleted from front position. The deQueue()
+function doesn't take any value as a parameter. We can use the following steps to delete an
+element from the circular queue...
+Step 1 - Check whether queue is EMPTY. (front == -1 && rear == -1)
+Step 2 - If it is EMPTY, then display "Queue is EMPTY!!! Deletion is not
+possible!!!" and terminate the function.
+Step 3 - If it is NOT EMPTY, then display queue[front] as deleted element and
+increment the front value by one (front ++). Then check whether front ==
+SIZE, if it is TRUE, then set front = 0. Then check whether both front –
+1 and rear are equal (front -1 == rear), if it TRUE, then set
+both front and rear to '-1' (front = rear = -1).
+3.Display() - Displays the elements of a Circular Queue
+We can use the following steps to display the elements of a circular queue...
+Step 1 - Check whether queue is EMPTY. (front == -1)
+Step 2 - If it is EMPTY, then display "Queue is EMPTY!!!" and terminate the
+function.
+Step 3 - If it is NOT EMPTY, then define an integer variable 'i' and set 'i = front'.
+Step 4 - Check whether 'front <= rear', if it is TRUE, then display 'queue[i]' value and
+Department of CSE Page 61
+Data Structures Lab Using C++ 2019-2020
+increment 'i' value by one (i++). Repeat the same until 'i <= rear'
+becomes FALSE.
+Step 5 - If 'front <= rear' is FALSE, then display 'queue[i]' value and increment 'i' value
+by one (i++). Repeat the same until'i <= SIZE - 1' becomes FALSE.
+Step 6 - Set i to 0.
+Step 7 - Again display 'cQueue[i]' value and increment i value by one (i++). Repeat the
+same until 'i <= rear' becomes FALSE.
+Source Code: To implement Circular Queue using Arrays.
+#include<iostream.h>
+#include<conio.h>
+#define SIZE 5
+void enQueue(int);
+void deQueue();
+void display();
+int cQueue[SIZE], front = -1, rear = -1;
+void main()
+{
+int choice, value;
+clrscr();
+while(1){
+cout<<"\n****** MENU ******\n";
+cout<<"1. Insert\n2. Delete\n3. Display\n4. Exit\n";
+cout<<"Enter your choice: ";
+cin>>choice;
+switch(choice){
+case 1: cout<<"\nEnter the value to be insert: ";
+cin>>value;
+enQueue(value);
+break;
+case 2: deQueue();
+Department of CSE Page 62
+Data Structures Lab Using C++ 2019-2020
+break;
+case 3: display();
+break;
+case 4: exit(0);
+default: cout<<"\nPlease select the correct choice!!!\n";
+}
+}
+}
+void enQueue(int value)
+{
+if((front == 0 && rear == SIZE - 1) || (front == rear+1))
+cout<<"\nCircular Queue is Full! Insertion not possible!!!\n";
+else{
+if(rear == SIZE-1 && front != 0)
+rear = -1;
+cQueue[++rear] = value;
+cout<<"\nInsertion Success!!!\n";
+if(front == -1)
+front = 0;
+}
+}
+void deQueue()
+{
+if(front == -1 && rear == -1)
+cout<<"\nCircular Queue is Empty! Deletion is not possible!!!\n";
+else{
+cout<<"\nDeleted element :"<<cQueue[front++];
+if(front == SIZE)
+front = 0;
+if(front-1 == rear)
+front = rear = -1;
+}
+}
+void display()
+Department of CSE Page 63
+Data Structures Lab Using C++ 2019-2020
+{
+if(front == -1)
+cout<<"\nCircular Queue is Empty!!!\n";
+else{
+int i = front;
+cout<<"\nCircular Queue Elements are : \n";
+if(front <= rear){
+while(i <= rear)
+cout<<”\t”<<cQueue[i++];
+}
+else{
+while(i <= SIZE - 1)
+cout<<”\t”<< cQueue[i++];
+i = 0;
+while(i <= rear)
+cout<<"\t"<<cQueue[i++];
+}
+}
+}
+Output:
+Signature of the Faculty
+Department of CSE Page 64
+Data Structures Lab Using C++ 2019-2020
+Aim: write a C++ programs to implement recursive and non recursive
+i) Linear search ii) Binary Search
+Description:
+i) LINEAR SEARCH (SEQUENTIAL SEARCH):
+Search begins by comparing the first element of the list with the target element. If it
+matches, the search ends. Otherwise, move to next element and compare. In this way, the
+target element is compared with all the elements until a match occurs. If the match do not
+occur and there are no more elements to be compared, conclude that target element is absent
+in the list.
+Algorithm for Linear search
+Linear_Search (A[ ], N, val , pos )
+Step 1 : Set pos = -1 and k = 0
+Step 2 : Repeat while k < N Begin
+Step 3 : if A[ k ] = val
+Set pos = k
+print pos
+Goto step 5
+End while
+Step 4 : print “Value is not present”
+Step 5 : Exit
+Source code: Non recursive C++ program for Linear search
+#include<iostream>
+using namespace std;
+int Lsearch(int list[ ],int n,int key);
+Department of CSE Page 65
+Data Structures Lab Using C++ 2019-2020
+int main()
+{
+int n,i,key,list[25],pos;
+cout<<"enter no of elements\n";
+cin>>n;
+cout<<"enter "<<n<<" elements ";
+for(i=0;i<n;i++)
+cin>>list[i];
+cout<<"enter key to search";
+cin>>key;
+pos= Lsearch (list,n,key);
+if(pos==-1)
+cout<<"\nelement not found";
+else
+cout<<"\n element found at index "<<pos;
+}
+/*function for linear search*/
+int Lsearch(int list[],int n,int key)
+{
+int i,pos=-1;
+for(i=0;i<n;i++)
+if(key==list[i])
+{
+pos=i;
+break;
+}
+return pos;
+}
+Output:
+Signature of the Faculty
+Department of CSE Page 66
+Data Structures Lab Using C++ 2019-2020
+Source code: Recursive C++ program for Linear search
+#include<iostream>
+using namespace std;
+int Rec_Lsearch(int list[ ],int n,int key);
+int main()
+{
+int n,i,key,list[25],pos;
+cout<<"enter no of elements\n";
+cin>>n;
+cout<<"enter "<<n<<" elements ";
+for(i=0;i<n;i++)
+cin>>list[i];
+cout<<"enter key to search";
+cin>>key;
+pos=Rec_Lsearch(list,n,key);
+if(pos==-1)
+cout<<"\nelement not found";
+else
+cout<<"\n element found at index "<<pos;
+}
+/*recursive function for linear search*/
+int Rec_Lsearch(int list[],int n,int key)
+{
+Department of CSE Page 67
+Data Structures Lab Using C++ 2019-2020
+if(n<=0)
+return -1;
+if(list[n]==key)
+return n;
+else
+return Rec_Lsearch(list,n-1,key);
+}
+Output:
+Signature of the Faculty
+(ii)Binary Search:
+Before searching, the list of items should be sorted in ascending order. First compare
+the key value with the item in the mid position of the array.
+If there is a match, we can return immediately the position. if the value is less than the
+element in middle location of the array, the required value is lie in the lower half of the array.
+If the value is greater than the element in middle location of the array, the required
+value is lie in the upper half of the array. We repeat the above procedure on the lower half or
+upper half of the array.
+Algorithm:
+Binary_Search (A [ ], U_bound, VAL)
+Step 1 : set BEG = 0 , END = U_bound , POS = -1
+Step 2 : Repeat while (BEG <= END )
+Step 3 :set MID = ( BEG + END ) / 2
+Department of CSE Page 68
+Data Structures Lab Using C++ 2019-2020
+Step 4 :if A [ MID ] == VAL then
+POS = MID
+print VAL “ is available at “, POS
+GoTo Step 6
+End if
+if A [ MID ] > VAL then
+set END = MID – 1
+Else
+set BEG = MID + 1
+End if
+End while
+Step 5 : if POS = -1 then
+print VAL “ is not present “
+End if
+Step 6 : EXIT
+Source code: Non recursive C++ program for binary search
+#include<iostream>
+using namespace std;
+int binary_search(int list[],int key,int low,int high);
+int main()
+{
+int n,i,key,list[25],pos;
+cout<<"enter no of elements\n" ;
+Department of CSE Page 69
+cin>>n;
+Data Structures Lab Using C++ 2019-2020
+cout<<"enter "<<n<<" elements in ascending order ";
+for(i=0;i<n;i++)
+cin>>list[i];
+cout<<"enter key to search" ;
+cin>>key;
+pos=binary_search(list,key,0,n-1);
+if(pos==-1)
+cout<<"element not found" ;
+else
+cout<<"element found at index "<<pos;
+}
+/* function for binary search*/
+int binary_search(int list[],int key,int low,int high)
+{
+int mid,pos=-1;
+while(low<=high)
+{
+mid=(low+high)/2;
+if(key==list[mid])
+{
+pos=mid;
+break;
+}
+else if(key<list[mid])
+Department of CSE Page 70
+Data Structuresh iLgha=bm iUd-1s;i ng C++ 2019-2020
+else
+low=mid+1;
+}
+return pos;
+}
+Output:
+Signature of the Faculty
+Source code: Recursive C++ program for binary search
+#include<iostream>
+using namespace std;
+int rbinary_search(int list[],int key,int low,int high);
+int main()
+{
+int n,i,key,list[25],pos;
+cout<<"enter no of elements\n" ;
+Department of CSE Page 71
+Data Structures Lab Using C++ 2019-2020
+cin>>n;
+cout<<"enter "<<n<<" elements in ascending order ";
+for(i=0;i<n;i++)
+cin>>list[i];
+cout<<"enter key to search" ;
+cin>>key;
+pos=rbinary_search(list,key,0,n-1);
+if(pos==-1)
+cout<<"element not found" ;
+else
+cout<<"element found at index "<<pos;
+}
+/*recursive function for binary search*/
+int rbinary_search(int list[ ],int key,int low,int high)
+{
+int mid,pos=-1;
+if(low<=high)
+{
+mid=(low+high)/2;
+if(key==list[mid])
+{
+pos=mid;
+Department of CSE Page 72
+Data Structures Lab Using C++ 2019-2020
+return pos;
+}
+else if(key<list[mid])
+return rbinary_search(list,key,low,mid-1);
+else
+return rbinary_search(list,key,mid+1,high);
+}
+return pos;
+}
+Output:
+Signature of the Faculty
+Department of CSE Page 73
+Data Structures Lab Using C++ 2019-2020
+WEEK-7: DATE:
+Aim: write a C++ programs to implement
+i) Bubble sort ii) Selection sort iii) quick sort
+Description:
+i)Bubble sort
+The bubble sort is an example of exchange sort.In this method,repetitive comparisonis
+performed among elements and essential swapping of elements is done. Bubble sort is commonly
+used in sorting algorithms.
+It is easy to understand but time consuming i.e. takes more number of comparisons to
+sort a list. In this type, two successive elements are comparedand swapping is
+done.Thus,step-by-step entire array elements are checked. It is different from the selection sort.
+Instead of searching the minimum element and then applying swapping, two records are
+swapped instantly upon noticing that they are not in order.
+Algorithm:
+Bubble_Sort ( A [ ] , N )
+Step 1: Start
+Step 2: Take an array of n elements
+Step 3: for i=0,………….n-2
+Step 4: for j=i+1,…….n-1
+Step 5: if arr[j]>arr[j+1] then
+Interchange arr[j] and arr[j+1]
+End of if
+Step 6: Print the sorted array arr
+Step 7:Stop
+Department of CSE Page 74
+Data Structures Lab Using C++ 2019-2020
+Source code: Program to sort a list of numbers using bubble sort
+#include<iostream>
+using namespace std;
+void bubble_sort(int list[30],int n);
+int main()
+{
+int n,i;
+int list[30];
+cout<<"enter no of elements\n";
+cin>>n;
+cout<<"enter "<<n<<" numbers ";
+for(i=0;i<n;i++)
+cin>>list[i];
+bubble_sort (list,n);
+cout<<" after sorting\n";
+for(i=0;i<n;i++)
+cout<<list[i]<<endl;
+return 0;
+}
+void bubble_sort (int list[30],int n)
+{
+int temp ;
+Department of CSE Page 75
+Data Structures Lab Using C++ 2019-2020
+int i,j;
+for(i=0;i<n;i++)
+for(j=0;j<n-1;j++)
+if(list[j]>list[j+1])
+{
+temp=list[j];
+list[j]=list[j+1];
+list[j+1]=temp;
+}
+}
+Output:
+Signature of Faculty
+ii) Selection sort ( Select the smallest and Exchange):
+The first item is compared with the emaining n-1 items, and whichever of all is
+lowest, is put in the first position. Then the second item from the list is taken and
+compared with the remaining (n-2) items, if an item with a value less than that of the
+second item is found on the (n-2) items, it is swapped (Interchanged) with the second
+item of the list and so on.
+Algorithm:
+Selection_Sort (A[ ] , N)
+Step 1 : start Begin
+Department of CSE Page 76
+Data Structures Lab Using C++ 2019-2020
+Step 2 : Set POS = K
+Step 3 : Repeat for J = K + 1 to N –1
+Begin
+If A[ J ] < A [ POS ]
+Set POS = J
+Step 4 : End For Swap A [ K ] End For with A [ POS ]
+Step 5 : Stop
+Source code: Program to implement selection sort
+#include<iostream>
+using namespace std;
+void selection_sort (int list[],int n);
+int main()
+{
+int n,i;
+int list[30];
+cout<<"enter no of elements\n";
+cin>>n;
+cout<<"enter "<<n<<" numbers ";
+for(i=0;i<n;i++)
+cin>>list[i];
+selection_sort (list,n);
+cout<<" after sorting\n";
+for(i=0;i<n;i++)
+cout<<list[i]<<endl;
+return 0;
+Department of CSE Page 77
+Data Structures Lab Using C++ 2019-2020
+}
+void selection_sort (int list[],int n)
+{
+int min,temp,i,j;
+for(i=0;i<n;i++)
+{
+min=i;
+for(j=i+1;j<n;j++)
+{
+if(list[j]<list[min])
+min=j;
+}
+temp=list[i];
+list[i]=list[min];
+list[min]=temp;
+}
+}
+Output:
+Signature of Faculty
+Department of CSE Page 78
+Data Structures Lab Using C++ 2019-2020
+iii) Quick sort:
+It is a divide and conquer algorithm. Quick sort first divides a large array into
+two smaller sub-arrays: the low elements and the high elements. Quick sort can then
+recursively sort the sub-arrays.
+ALGORITHM:
+Step 1: Pick an element, called a pivot, from the array.
+Step 2: Partitioning: reorder the array so that all elements with values less than the pivot
+come before the pivot, while all elements with values greater than the pivot come
+after it (equal values can go either way). After this partitioning, the pivot is in its final
+position. This is called the partition operation.
+Step 3: Recursively apply the above steps to the sub-array of elements with smaller values
+and separately to the sub-array of elements with greater values.
+Source code: To implement Quick sort
+#include<iostream.h>
+using namespace std;
+void quicksort(int x[],int Lb,int Ub)
+{
+int down,up,pivot,t;
+if(Lb<Ub)
+{
+down=Lb;
+up=Ub;
+pivot=down;
+while(down<up)
+{
+while((x[down]<=x[pivot])&&(down<Ub))down++;
+while(x[up]>x[pivot])
+up--;
+Department of CSE Page 79
+Data Structures Lab Using C++ 2019-2020
+if(down<up)
+{
+t=x[down];
+x[down]=x[up];
+x[up]=t;
+}/*endif*/
+}
+t=x[pivot];
+x[pivot]=x[up];
+x[up]=t;
+quicksort( x,Lb,up-1);
+quicksort( x,up+1,Ub);
+}
+}
+int main()
+{
+int n,i;
+int list[30];
+cout<<"enter no of elements\n";
+cin>>n;
+cout<<"enter "<<n<<" numbers ";
+for(i=0;i<n;i++)
+cin>>list[i];
+quicksort(list,0,n-1);
+Department of CSE Page 80
+Data Structures Lab Using C++ 2019-2020
+cout<<" after sorting\n";
+for(i=0;i<n;i++)
+cout<<list[i]<<endl;
+return 0;
+}
+Output:
+Signature of Faculty
+Department of CSE Page 81
+Data Structures Lab Using C++ 2019-2020
+WEEK-8 DATE:
+Write a program that implements the following
+i) Insertion sort
+ii) Merge sort
+iii) Heap sort.
+(i)Insertion Sort:
+It iterates, consuming one input element each repetition, and growing a
+sorted output list. Each iteration, insertion sort removes one element from the input
+data, finds the location it belongs within the sorted list, and inserts it there. It repeats
+until no input elements remain.
+Algorithm:
+Step 1: start
+Step 2: for i ← 1 to length(A)
+Step 3: j ← i
+Step 4: while j > 0 and A[j-1] > A[j]
+Step 5: swap A[j] and A[j-1]
+Step 6: j ← j - 1
+Step 7: end while
+Step 8: end for
+Step 9: stop
+Source code: Program to implement Insertion Sort
+#include<iostream>
+using namespace std;
+void insertion_sort(int a[],int n)
+{
+int i,t,pos;
+for(i=0;i<n;i++)
+Department of CSE Page 82
+Data Structures Lab Using C++ 2019-2020
+{
+t=a[i];
+pos=i;
+while(pos>0&&a[pos-1]>t)
+{
+a[pos]=a[pos-1];
+pos--;
+}
+a[pos]=t;
+}
+}
+int main()
+{
+int n,i;
+int list[30];
+cout<<"enter no of elements\n";
+cin>>n;
+cout<<"enter "<<n<<" numbers ";
+for(i=0;i<n;i++)
+cin>>list[i];
+insertion_sort(list,n);
+cout<<" after sorting\n";
+for(i=0;i<n;i++)
+cout<<list[i]<<endl;
+return 0;
+}
+Output:
+Signature of Faculty
+Department of CSE Page 83
+Data Structures Lab Using C++ 2019-2020
+ii)Merge sort:
+Merge sort is an O(n log n) comparison-based sorting algorithm. It is stable, meaning
+that it preserves the input order of equal elements in the sorted output. It is an example of the
+divide and conquer algorithmic paradigm.
+Merge sort is so inherently sequential that it's practical to run it using slow tape drives
+as input and output devices. It requires very little memory, and the memory required does not
+change with the number of data elements.
+If you have four tape drives, it works as follows:
+1. Divide the data to be sorted in half and put half on each of two tapes.
+2. Merge individual pairs of records from the two tapes; write two-record chunks
+alternately to each of the two output tapes.
+3. Merge the two-record chunks from the two output tapes into four-record
+chunks; write these alternately to the original two input tapes.
+4. Merge the four-record chunks into eight-record chunks; write these alternately
+to the original two output tapes.
+5. Repeat until you have one chunk containing all the data, sorted --- that is, for
+log n passes, where n is the number of records.
+Conceptually, merge sort works as follows:
+1. Divide the unsorted list into two sublists of about half the size.
+2. Divide each of the two sublists recursively until we have list sizes of length 1,
+in which case the list itself is returned.
+3. Merge the two sublists back into one sorted list.
+Source code:To implement Merge Sort
+#include<iostream.h>
+using namespace std;
+Department of CSE Page 84
+Data Structures Lab Using C++ 2019-2020
+Data Structures Lab 2019-2019
+#define max 15
+template<class T>
+void merge(T a[],int l,int m,int u)
+{
+T b[max];
+int i,j,k;
+i=l; j=m+1; k=l;
+while((i<=m)&&(j<=u))
+{
+if(a[i]<=a[j])
+{
+b[k]=a[i];
+++i;
+}
+else
+{
+b[k]=a[j];
+++j;
+}
+++k;
+}
+if(i>m)
+{
+while(j<=u)
+{
+b[k]=a[j];
+++j;
+++k;
+}
+}
+else
+{
+Department of CSE Page 85
+Data Structures Lab Using C++ 2019-2020
+while(i<=m)
+{
+b[k]=a[i];
+++i;
+++k;
+}
+}
+for(int r=l;r<=u;r++)
+a[r]=b[r];
+}
+template <class T>
+void mergesort(T a[],int p,int q)
+{
+int mid;
+if(p<q)
+{
+mid=(p+q)/2;
+mergesort(a,p,mid);
+mergesort(a,mid+1,q);
+merge(a,p,mid,q);
+}
+}
+Department of CSE Page 86
+Data Structures Lab Using C++ 2019-2020
+int main()
+{
+int n,i;
+int list[30];
+cout<<"enter no of elements\n";
+cin>>n;
+cout<<"enter "<<n<<" numbers ";
+for(i=0;i<n;i++)
+cin>>list[i];
+mergesort (list,0,n-1);
+cout<<" after sorting\n";
+for(i=0;i<n;i++)
+cout<<list[i]<<endl;
+return 0;
+}
+Output:
+Signature of Faculty
+Department of CSE Page 87
+Data Structures Lab Using C++ 2019-2020
+Data Structures Lab 2019-2019
+(iii)HEAP SORT
+Heap sort is a method in which a binary tree is used. In this method first the heap is created
+using binary tree and then heap is sorted using priority queue.
+Source code:C++ program for implementation of Heap Sort
+#include <iostream>
+using namespace std;
+// To heapify a subtree rooted with node i which is
+// an index in arr[]. n is size of heap
+void heapify(int arr[], int n, int i)
+{
+int largest = i; // Initialize largest as root
+int l = 2*i + 1; // left = 2*i + 1
+int r = 2*i + 2; // right = 2*i + 2
+// If left child is larger than root
+if (l < n && arr[l] > arr[largest])
+largest = l;
+// If right child is larger than largest so far
+if (r < n && arr[r] > arr[largest])
+largest = r;
+// If largest is not root
+if (largest != i)
+{
+swap(arr[i], arr[largest]);
+// Recursively heapify the affected sub- tree
+heapify(arr, n, largest);
+}
+}
+Department of CSE Page 88
+Data Structures Lab Using C++ 2019-2020
+// main function to do heap sort
+void heapSort(int arr[], int n)
+{
+//Build heap (rearrange array)
+for (int i = n / 2 - 1; i >= 0; i--)
+heapify(arr, n, i);
+// One by one extract an element from heap
+for (int i=n-1; i>=0; i--)
+{
+//Move current root to end
+swap(arr[0], arr[i]);
+//call max heapify on the reduced heap
+heapify(arr, i, 0);
+}
+}
+/* A utility function to print array of size n */
+void printArray(int arr[], int n)
+{
+for (int i=0; i<n; ++i)
+cout << arr[i] << " ";
+cout << "\n";
+}
+int main()
+{
+int n,i;
+int list[30];
+Department of CSE Page 89
+Data Structures Lab Using C++ 2019-2020
+Data Structures Lab 2019-2019
+cout<<"enter no of elements\n";
+cin>>n;
+cout<<"enter "<<n<<" numbers ";
+for(i=0;i<n;i++)
+cin>>list[i];
+heapSort(list, n);
+cout << "Sorted array is \n";
+printArray(list, n);
+return 0;
+}
+Output:
+Signature of the Faculty
+Department of CSE Page 90
+Data Structures Lab Using C++ 2019-2020
+WEEK-9 DATE:
+Aim: Write a program to implement all the functions of a dictionary (ADT)using Linked List.
+Description:
+Dictionary
+The most common objective of computer programs is to store and retrieve data. Much of
+this book is about efficient ways to organize collections of data records so that they can be stored
+and retrieved quickly. In this section we describe a simple interface for such a collection, called
+a dictionary.
+The dictionary ADT provides operations for storing records, finding records, and
+removing records from the collection. This ADT gives us a standard basis for comparing various
+data structures. Loosly speaking, we can say that any data structure that supports insert, search,
+and deletion is a "dictionary".
+Dictionaries depend on the concepts of a search key and comparable objects. To
+implement the dictionary's search function, we will require that keys be totally ordered. Ordering
+fields that are naturally multi-dimensional, such as a point in two or three dimensions, present
+special opportunities if we wish to take advantage of their multidimensional nature. This problem
+is addressed byspatial data structures.
+Source code: To to implement all the functions of a dictionary (ADT)
+#include<stdlib.h>
+#include<iostream.h>
+class node
+{
+public: int key;
+int value;
+node*next;
+Department of CSE Page 91
+Data Structures Lab Using C++ 2019-2020
+};
+class dictionary:public node
+{
+int k,data;
+node *head;
+public: dictionary();
+void insert_d( );
+void delete_d( );
+void display_d( );
+};
+dictionary::dictionary( )
+{head=NULL;
+}
+//code to push an val into dictionary;
+void dictionary::insert_d( )
+{
+node *p,*curr,*prev;
+cout<<"Enter an key and value to be inserted:";
+cin>>k;
+cin>>data;
+p=new node;
+p->key=k;
+p->value=data;
+p->next=NULL;
+if(head==NULL)
+head=p;
+else
+{
+curr=head;
+Department of CSE Page 92
+Data Structures Lab Using C++ 2019-2020
+while((curr->key<p->key)&&(curr->next!=NULL))
+{
+prev=curr;
+curr=curr->next;
+}
+if(curr->next==NULL)
+{
+if(curr->key<p->key)
+{
+curr->next=p;
+prev=curr;
+}
+else
+{
+p->next=prev->next;
+prev->next=p;
+}
+}
+else
+{
+p->next=prev->next;
+prev->next=p;
+}
+cout<<"\nInserted into dictionary Sucesfully....\n";
+Department of CSE Page 93
+Data Structures Lab Using C++ 2019-2020
+}
+}
+void dictionary::delete_d( )
+{
+node*curr,*prev;
+cout<<"Enter key value that you want to delete...";
+cin>>k;
+if(head==NULL)
+cout<<"\ndictionary is Underflow";
+else
+{
+curr=head;
+while(curr!=NULL)
+{
+if(curr->key==k)
+break;
+prev=curr;
+curr=curr->next;
+}
+}
+if(curr==NULL)
+cout<<"Node not found...";
+else
+{
+if(curr==head)
+head=curr->next;
+Department of CSE Page 94
+Data Structures Lab Using C++ 2019-2020
+else
+prev->next=curr->next;
+delete curr;
+cout<<"Item deleted from dictionary...";
+}
+}
+void dictionary::display_d( )
+{
+node*t;
+if(head==NULL)
+cout<<"\ndictionary Under Flow";
+else
+{
+cout<<"\nElements in the dictionary are....\n";
+t=head;
+while(t!=NULL)
+{
+cout<<t->key<<","<<t->value;
+t=t->next;
+}
+}
+}
+int main( )
+{
+int choice;
+dictionary d1;
+while(1)
+Department of CSE Page 95
+Data Structures Lab Using C++ 2019-2020
+{
+cout<<"\n\n***Menu for Dictrionay operations***\n\n";
+cout<<"1.Insert\n2.Delete\n3.DISPLAY\n4.EXIT\n";
+cout<<"Enter Choice:";
+cin>>choice;
+switch(choice)
+{
+case 1: d1.insert_d();
+break;
+case 2: d1.delete_d( );
+break;
+case 3: d1.display_d( );
+break;
+case 4: exit(0);
+default:cout<<"Invalid choice...Try again...\n";
+}
+}
+}
+Output:
+Signature Of Faculty
+Department of CSE Page 96
+Data Structures Lab Using C++ Si2gn0a1tu9r-e2 o0f 2F0ac ulty
+WEEK-10 DATE:
+Aim:Write a C++ program to perform the following operations:
+a) Insert an element into a binary search tree.
+b) Delete an element from a binary search tree.
+c) Search for a key element in a binary search tree.
+Description:
+Binary Search Tree:
+So to make the searching algorithm faster in a binary tree we will go for building the
+binary search tree. The binary search tree is based on the binary search algorithm. While
+creating the binary search tree the data is systematically arranged.
+That means values at left sub-tree < root node value < right sub-tree values.
+Source code: To implement Binary Search tree
+#include<stdlib.h>
+#include<iostream.h>
+class node
+{
+public:
+int data;
+node*lchild;
+node*rchild;
+};
+class bst:public node
+{
+int item;
+node *root;
+public: bst();
+Department of CSE Page 97
+Data Structures Lab Using C++ 2019-2020
+void insert_node();
+void delete_node();
+void display_bst();
+void inorder(node*);
+};
+bst::bst()
+{
+root=NULL;
+}
+void bst:: insert_node()
+{
+node *new_node,*curr,*prev;
+new_node=new node;
+cout<<"Enter data into new node";
+cin>>item;
+new_node->data=item;
+new_node->lchild=NULL;
+new_node->rchild=NULL;
+if(root==NULL)
+root=new_node;
+else
+{
+curr=prev=root;
+while(curr!=NULL)
+{
+if(new_node->data>curr->data)
+{
+Department of CSE Page 98
+Data Structures Lab Using C++ 2019-2020
+prev=curr;
+curr=curr->rchild;
+}
+else
+{
+prev=curr;
+curr=curr->lchild;
+}
+}
+cout<<"Prev:"<<prev->data<<endl;
+if(prev->data>new_node->data)
+prev->lchild=new_node;
+else
+prev->rchild=new_node;
+}
+}
+//code to delete a node
+void bst::delete_node()
+{
+if(root==NULL)
+cout<<"Tree is Empty";
+else
+{
+int key;
+cout<<"Enter the key value to be deleted";
+cin>>key;
+node* temp,*parent,*succ_parent;
+Department of CSE Page 99
+Data Structures Lab Using C++ 2019-2020
+temp=root;
+while(temp!=NULL)
+{
+if(temp->data==key)
+{ //deleting node with two children
+if(temp->lchild!=NULL&&temp->rchild!=NULL)
+{//search for inorder sucessor
+node*temp_succ;
+temp_succ=temp->rchild;
+while(temp_succ->lchild!=NULL)
+{
+succ_parent=temp_succ;
+temp_succ=temp_succ->lchild;
+}
+temp->data=temp_succ->data;
+succ_parent->lchild=NULL;
+cout<<"Deleted sucess fully";
+}
+//deleting a node having one left child
+if(temp->lchild!=NULL&temp->rchild==NULL)
+{
+if(parent->lchild==temp)
+parent->lchild=temp->lchild;
+else
+parent->rchild=temp->lchild;
+temp=NULL;
+delete(temp);
+cout<<"Deleted sucess fully";
+return;
+}
+//deleting a node having one right child
+if(temp->lchild==NULL&temp->rchild!=NULL)
+{
+Department of CSE Page 100
+Data Structures Lab Using C++ 2019-2020
+if(parent->lchild==temp)
+parent->lchild=temp->rchild;
+else
+parent->rchild=temp->rchild;
+temp=NULL;
+delete(temp);
+cout<<"Deleted sucess fully";
+return;
+}
+//deleting a node having no child
+if(temp->lchild==NULL&temp->rchild==NULL)
+{
+if(parent->lchild==temp)
+parent->lchild=NULL;
+else
+parent->rchild=NULL;
+temp=NULL;
+delete(temp);
+cout<<"Deleted sucess fully";
+return;
+}
+}
+else if(temp->data<key)
+{
+parent=temp;
+temp=temp->rchild;
+}
+else if(temp->data>key)
+{
+parent=temp;
+temp=temp->lchild;
+}
+Department of CSE Page 101
+Data Structures Lab Using C++ 2019-2020
+}//end while
+}//end if
+}//end delnode func
+void bst::display_bst()
+{
+if(root==NULL)
+cout<<"\nBST Under Flow";
+else
+inorder(root);
+}
+void bst::inorder(node*t)
+{
+if(t!=NULL)
+{
+inorder(t->lchild);
+cout<<" "<<t->data;
+inorder(t->rchild);
+}
+}
+int main()
+{
+bst bt;
+int i;
+while(1)
+{
+cout<<"****BST Operations****";
+cout<<"\n1.Insert\n2.Display\n3.del\n4.exit\n";
+Department of CSE Page 102
+Data Structures Lab Using C++ 2019-2020
+cout<<"Enter Choice:";
+cin>>i;
+switch(i)
+{
+case 1:bt.insert_node();
+break;
+case 2:bt.display_bst();
+break;
+case 3:bt.delete_node();
+break;
+case 4:exit(0);
+default: cout<<"Enter correct choice";
+}
+}
+}
+Output:
+Signature of Faculty
+Department of CSE Page 103
+Data Structures Lab Using C++ 2019-2020
+WEEK-11 : DATE:
+Write C++ programs that use recursive functions to traverse the given
+binary tree in a)Preorder b) Inorder and c) Postorder
+Aim: To implement Binary tree traversals(PreOrder,InOrder,PostOrder)
+Description:
+Binary tree traversals
+It is often convenient to a single list containing all the nodes in a tree. This list may
+correspond to an order in which the nodes should be visited when the tree is being searched.
+We define three such lists here, the preorder, postorder and inorder traversals of the tree.
+The definitions themselves are recursive:
+ if T is the empty tree, then the empty list is the preorder, the inorder and the
+postorder traversal associated with T;
+ if T = [N] consists of a single node, the list [N] is the preorder, the inorder and
+the postorder traversal associated with T;
+ otherwise, T contains a root node n, and subtrees T1,..., Tn: and
+ the preorder traversal of the nodes of T is the list containing N, followed, in
+order by the preorder traversals of T1..., Tn;
+ the inorder traversal of the nodes of T is the list containing the inorder
+traversal of T1 followed by N followed in order by the inorder traversal of each
+of T2,..., Tn.
+ the postorder traversal of the nodes of T is the list containing in order the
+postorder traversal of each of T1,..., Tn, followed by N.
+Source code:
+#include<stdlib.h>
+#include<iostream.h>
+Department of CSE Page 104
+Data Structures Lab Using C++ 2019-2020
+class node
+{
+public:
+int data;
+node*Lchild;
+node*Rchild;
+};
+class bst
+{
+int item;
+node *root;
+public: bst();
+void insert_node();
+void delete_node();
+void display_bst();
+void preeorder(node*);
+void inorder(node*);
+void postorder(node*);
+};
+bst::bst()
+{
+root=NULL;
+}
+void bst:: insert_node()
+Department of CSE Page 105
+Data Structures Lab Using C++ 2019-2020
+{
+node *new_node,*curr,*prev;
+new_node=new node;
+cout<<"Enter data into new node";
+cin>>item;
+new_node->data=item;
+new_node->Lchild=NULL;
+new_node->Rchild=NULL;
+if(root==NULL)
+root=new_node;
+else
+{
+curr=prev=root;
+while(curr!=NULL)
+{
+if(new_node->data>curr->data)
+{
+prev=curr;
+curr=curr->Rchild;
+}
+else
+{
+prev=curr;
+Department of CSE Page 106
+Data Structures Lab Using C++ 2019-2020
+curr=curr->Lchild;
+}
+}
+cout<<"Prev:"<<prev->data<<endl;
+if(prev->data>new_node->data)
+prev->Lchild=new_node;
+else
+prev->Rchild=new_node;
+}
+}
+//code to delete a node
+void bst::delete_node()
+{
+if(root==NULL)
+cout<<"Tree is Empty";
+else
+{
+int key;
+cout<<"Enter the key value to be deleted";
+cin>>key;
+node* temp,*parent,*succ_parent;
+temp=root;
+while(temp!=NULL)
+{
+Department of CSE Page 107
+Data Structures Lab Using C++ 2019-2020
+if(temp->data==key)
+{ //deleting node with two children
+if(temp->Lchild!=NULL&&temp->Rchild!=NULL)
+{//search for sucessor
+node*temp_succ;
+temp_succ=temp->Rchild;
+while(temp_succ->Lchild!=NULL)
+{
+succ_parent=temp_succ;
+temp_succ=temp_succ->Lchild;
+}
+temp->data=temp_succ->data;
+succ_parent->Lchild=NULL;
+cout<<"Deleted sucess fully";
+return;
+}
+//deleting a node having one left child
+if(temp->Lchild!=NULL&temp->Rchild==NULL)
+{
+if(parent->Lchild==temp)
+parent->Lchild=temp->Lchild;
+else
+parent->Rchild=temp->Lchild;
+temp=NULL;
+delete(temp);
+Department of CSE Page 108
+Data Structures Lab Using C++ 2019-2020
+cout<<"Deleted sucess fully";
+return;
+}
+//deleting a node having one right child
+if(temp->Lchild==NULL&temp->Rchild!=NULL)
+{
+if(parent->Lchild==temp)
+parent->Lchild=temp->Rchild;
+else
+parent->Rchild=temp->Rchild;
+temp=NULL;
+delete(temp);
+cout<<"Deleted sucess fully";
+return;
+}
+//deleting a node having no child
+if(temp->Lchild==NULL&temp->Rchild==NULL)
+{
+if(parent->Lchild==temp)
+parent->Lchild=NULL;
+else
+parent->Rchild=NULL;
+temp=NULL;
+delete(temp);
+cout<<"Deleted sucess fully";
+return;
+}
+}
+Department of CSE Page 109
+Data Structures Lab Using C++ 2019-2020
+else if(temp->data<key)
+{
+parent=temp;
+temp=temp->Rchild;
+}
+else if(temp->data>key)
+{
+parent=temp;
+temp=temp->Lchild;
+}
+}//end while
+}//end if
+}//end delnode func
+void bst::display_bst()
+{
+if(root==NULL)
+cout<<"\nBinary Search Tree is Under Flow";
+else
+{
+int ch;
+cout<<"\t\t**Binart Tree Traversals**\n";
+cout<<"\t\t1.Preeorder\n\t\t2.Inorder\n\t\t3:PostOrder\n";
+cout<<"\t\tEnter Your Chice:";
+cin>>ch;
+switch(ch)
+Department of CSE Page 110
+Data Structures Lab Using C++ 2019-2020
+{
+case 1: cout<<"Pree order Tree Traversal\n ";
+preeorder(root);
+break;
+case 2: cout<<"Inorder Tree Traversal is\n ";
+inorder(root);
+break;
+case 3: cout<<"Inorder Tree Traversal is\n";
+postorder(root);
+break;
+}
+}
+}
+void bst::inorder(node*t)
+{
+if(t!=NULL)
+{
+inorder(t->Lchild);
+cout<<" "<<t->data;
+inorder(t->Rchild);
+}
+}
+void bst::preeorder(node*t)
+Department of CSE Page 111
+Data Structures Lab Using C++ 2019-2020
+{
+if(t!=NULL)
+{
+cout<<" "<<t->data;
+preeorder(t->Lchild);
+preeorder(t->Rchild);
+}
+}
+void bst::postorder(node*t)
+{
+if(t!=NULL)
+{
+postorder(t->Lchild);
+postorder(t->Rchild);
+cout<<" "<<t->data;
+}
+}
+int main()
+{
+bst bt;
+int i;
+while(1)
+{
+cout<<"\n\n***Operations Binary Search Tree***\n";
+cout<<"1.Insert\n2.Display\n3.del\n4.exit\n"; cout<<"Enter Choice:";
+cin>>i;
+switch(i)
+Department of CSE Page 112
+Data Structures Lab Using C++ 2019-2020
+{
+case 1:bt.insert_node();
+break;
+case 2:bt.display_bst();
+break;
+case 3:bt.delete_node();
+break;
+case 4:exit(0);
+default:cout<<"Enter correct choice";
+}
+}
+}
+Output :
+Signature of the Faculty
+Department of CSE Page 113
+Data Structures Lab Using C++ 2019-2020
+WEEK -12 DATE:
+Aim: Write a C++ program to perform the following operations
+a)Insertion into an AVL-tree b) Deletion from an AVL-tree
+c) Search for a key element in a AVL tree.
+Description:
+AVL Tree
+AVL tree is a height-balanced binary search tree. That means, an AVL tree is also a
+binary search tree but it is a balanced tree. A binary tree is said to be balanced if, the difference
+between the heights of left and right subtrees of every node in the tree is either -1, 0 or +1. In
+other words, a binary tree is said to be balanced if the height of left and right children of every
+node differ by either -1, 0 or +1. In an AVL tree, every node maintains an extra information
+known as “Balance factor”.
+The AVL tree was introduced in the year 1962 by G.M. Adelson-Velsky and E.M.
+Landis. An AVL tree is defined as follows...
+An AVL tree is a balanced binary search tree. In an AVL tree, balance factor of every node
+is either -1, 0 or +1.
+Balance factor of a node is the difference between the heights of the left and right
+subtrees of that node. The balance factor of a node is calculated either height of left subtree -
+height of right subtree (OR) height of right subtree - height of left subtree.
+In the following explanation, we calculate as follows...
+Balance factor = heightOfLeftSubtree - heightOfRightSubtree
+Example of AVL Tree
+The above tree is a binary search tree and every node is satisfying balance factor condition. So
+this tree is said to be an AVL tree.
+Department of CSE Page 114
+Data Structures Lab Using C++ 2019-2020
+Operations on an AVL Tree
+The following operations are performed on AVL tree...
+1. Search
+2. Insertion
+3. Deletion
+1.Search Operation in AVL Tree
+In an AVL tree, the search operation is performed with O(log n) time complexity. The
+search operation in the AVL tree is similar to the search operation in a Binary search tree. We
+use the following steps to search an element in AVL tree...
+Step 1 - Read the search element from the user.
+Step 2 - Compare the search element with the value of root node in the tree.
+Step 3 - If both are matched, then display "Given node is found!!!" and terminate the
+function
+Step 4 - If both are not matched, then check whether search element is smaller or larger
+than that node value.
+Step 5 - If search element is smaller, then continue the search process in left subtree.
+Step 6 - If search element is larger, then continue the search process in right subtree.
+Step 7 - Repeat the same until we find the exact element or until the search element is
+compared with the leaf node.
+Step 8 - If we reach to the node having the value equal to the search value, then display
+"Element is found" and terminate the function.
+Step 9 - If we reach to the leaf node and if it is also not matched with the search element,
+then display "Element is not found" and terminate the function.
+Department of CSE Page 115
+Data Structures Lab Using C++ 2019-2020
+2.Insertion Operation in AVL Tree
+In an AVL tree, the insertion operation is performed with O(log n) time complexity. In
+AVL Tree, a new node is always inserted as a leaf node. The insertion operation is performed as
+follows...
+Step 1 - Insert the new element into the tree using Binary Search Tree insertion logic.
+Step 2 - After insertion, check the Balance Factor of every node.
+Step 3 - If the Balance Factor of every node is 0 or 1 or -1 then go for next operation.
+Step 4 - If the Balance Factor of any node is other than 0 or 1 or -1 then that tree is said
+to be imbalanced. In this case, perform suitable Rotation to make it balanced
+and go for next operation.
+3.Deletion Operation in AVL Tree
+The deletion operation in AVL Tree is similar to deletion operation in BST. But after
+every deletion operation, we need to check with the Balance Factor condition. If the tree is
+balanced after deletion go for next operation otherwise perform suitable rotation to make the tree
+Balanced.
+Aim: To implement AVL tree
+Source code:
+#include <iostream.h>
+#include <stdlib.h>
+#include conio.h>
+struct node
+{
+int element;
+node *left;
+node *right;
+int height;
+};
+Department of CSE Page 116
+Data Structures Lab Using C++ 2019-2020
+typedef struct
+node *np;
+class bstree
+{
+public:
+void insert(int,np&);
+void del(int, np &);
+int deletemin(np &);
+void find(int,np &);
+np findmin(np);
+np findmax(np);
+void copy(np &,np &);
+void makeempty(np&);
+np nodecopy(np &);
+void preorder(np);
+void inorder(np);
+void postorder(np);
+int bsheight(np);
+np srl(np &);
+np drl(np &);
+np srr(np &);
+np drr(np &);
+int max(int,int);
+int nonodes(np);
+};
+//Inserting a node
+void bstree::insert(int x,np &p)
+{
+if (p == NULL)
+{
+Department of CSE Page 117
+Data Structures Lab Using C++ 2019-2020
+p = new node;
+p->element = x;
+p->left=NULL;
+p->right = NULL;
+p->height=0;
+if (p==NULL)
+cout<<"Out of Space";
+}
+else
+{
+if (x<p->element)
+{
+insert(x,p->left);
+if ((bsheight(p->left) - bsheight(p->right))==2)
+{
+if (x < p->left->element)
+p=srl(p);
+else
+p = drl(p);
+}
+}
+else if (x>p->element)
+{
+insert(x,p->right);
+Department of CSE Page 118
+Data Structures Lab Using C++ 2019-2020
+if ((bsheight(p->right) - bsheight(p->left))==2)
+{
+if (x > p->right->element)
+p=srr(p);
+else
+p = drr(p);
+}
+}
+else
+cout<<"Element Exists";
+}
+int m,n,d;
+m=bsheight(p->left);
+n=bsheight(p->right);
+d=max(m,n);
+p->height = d + 1;
+}
+//Finding the Smallest
+np bstree::findmin(np p)
+{
+if (p==NULL)
+{
+cout<<"Empty Tree ";
+return p;
+Department of CSE Page 119
+Data Structures Lab Using C++ 2019-2020
+}
+else
+{
+while(p->left !=NULL)
+p=p->left;
+return p;
+}
+}
+//Finding the Largest
+np bstree::findmax(np p)
+{
+if (p==NULL)
+{
+cout<<"Empty Tree ";
+return p;
+}
+else
+{
+while(p->right !=NULL)
+p=p->right;
+return p;
+}
+}
+Department of CSE Page 120
+Data Structures Lab Using C++ 2019-2020
+//Finding an element
+void bstree::find(int x,np &p)
+{
+if (p==NULL)
+cout<<" Element not found ";
+else
+if (x < p->element)
+find(x,p->left);
+else
+if (x>p->element)
+find(x,p->right);
+else
+cout<<" Element found !";
+}
+//Copy a tree
+void bstree::copy(np &p,np &p1)
+{
+makeempty(p1);
+p1 = nodecopy(p);
+}
+//Make a tree empty
+void bstree::makeempty(np &p)
+{
+Department of CSE Page 121
+Data Structures Lab Using C++ 2019-2020
+np d;
+if (p != NULL)
+{
+makeempty(p->left);
+makeempty(p->right);
+d=p;
+free(d);
+p=NULL;
+}
+}
+//Copy the nodes
+np bstree::nodecopy(np &p)
+{
+np temp;
+if (p==NULL)
+return p;
+else
+{
+temp = new node;
+temp->element = p->element;
+temp->left = nodecopy(p->left);
+temp->right = nodecopy(p->right);
+return temp;
+Department of CSE Page 122
+Data Structures Lab Using C++ 2019-2020
+}
+}
+//Deleting a node
+void bstree::del(int x,np &p)
+{
+np d;
+if (p==NULL)
+cout<<"Element not found ";
+else if ( x < p->element)
+del(x,p->left);
+else if (x > p->element)
+del(x,p->right);
+else if ((p->left == NULL) && (p->right == NULL))
+{
+d=p;
+free(d);
+p=NULL;
+cout<<" Element deleted !";
+}
+else if (p->left == NULL)
+{
+d=p;
+free(d);
+Department of CSE Page 123
+Data Structures Lab Using C++ 2019-2020
+p=p->right;
+cout<<" Element deleted !";
+}
+else if (p->right == NULL)
+{
+d=p;
+p=p->left;
+free(d);
+cout<<" Element deleted !";
+}
+else
+p->element = deletemin(p->right);
+}
+int bstree::deletemin(np &p)
+{
+int c;
+cout<<"inside deltemin";
+if (p->left == NULL)
+{
+c=p->element;
+p=p->right;
+return c;
+Department of CSE Page 124
+Data Structures Lab Using C++ 2019-2020
+}
+else
+{
+c=deletemin(p->left);
+return c;
+}
+}
+void bstree::preorder(np p)
+{
+if (p!=NULL)
+{
+cout<<p->element<<"-->";
+preorder(p->left);
+preorder(p->right);
+}
+}
+//Inorder Printing
+void bstree::inorder(np p)
+{
+if (p!=NULL)
+{
+inorder(p->left);
+cout<<p->element<<"-->";
+inorder(p->right);
+Department of CSE Page 125
+Data Structures Lab Using C++ 2019-2020
+Data Structures Lab 2019-2019
+}
+}
+//PostOrder Printing
+void bstree::postorder(np p)
+{
+if (p!=NULL)
+{
+postorder(p->left);
+postorder(p->right);
+cout<<p->element<<"-->";
+}
+}
+int bstree::max(int value1, int value2)
+{
+return ((value1 > value2) ? value1 : value2);
+}
+int bstree::bsheight(np p)
+{
+int t;
+if (p == NULL)
+return -1;
+else
+{
+t= p->height;
+Department of CSE Page 126
+Data Structures Lab Using C++ 2019-2020
+return t;
+}
+}
+np bstree:: srl(np &p1)
+{
+np p2;
+p2 = p1->left;
+p1->left = p2->right;
+p2->right = p1;
+p1->height = max(bsheight(p1->left),bsheight(p1->right)) + 1;
+p2->height = max(bsheight(p2->left),p1->height) + 1; return p2;
+}
+np bstree:: srr(np &p1)
+{
+np p2;
+p2 = p1->right;
+p1->right = p2->left;
+p2->left = p1;
+p1->height = max(bsheight(p1->left),bsheight(p1->right)) + 1;
+p2->height = max(p1->height,bsheight(p2->right)) + 1;
+return p2;
+}
+np bstree:: drl(np &p1)
+{
+p1->left=srr(p1->left);
+return srl(p1);
+Department of CSE Page 127
+Data Structures Lab Using C++ 2019-2020
+}
+np bstree::drr(np &p1)
+{
+p1->right = srl(p1->right);
+return srr(p1);
+}
+int bstree::nonodes(np p)
+{
+int count=0;
+if (p!=NULL)
+{
+nonodes(p->left);
+nonodes(p->right);
+count++;
+}
+return count;
+}
+int main()
+{
+//clrscr();
+np root,root1,min,max;//,flag;
+int a,choice,findele,delele,leftele,rightele,flag;
+Department of CSE Page 128
+Data Structures Lab Using C++ 2019-2020
+char ch='y';
+bstree bst;
+//system("clear");
+root = NULL;
+root1=NULL;
+while(1)
+{
+cout<<" \nAVL Tree\n";
+cout<<" ========\n";
+cout<<"1.Insertion\n2.FindMin\n";
+cout<<"3.FindMax\n4.Find\n5.Copy\n";
+cout<<"6.Delete\n7.Preorder\n8.Inorder\n";
+cout<<"9.Postorder\n10.height\n11.EXIT\n";
+cout<<"Enter the choice:";
+cin>>choice;
+switch(choice)
+{
+case 1:
+cout<<"New node's value ?";
+cin>>a;
+bst.insert(a,root);
+break;
+case 2:
+Department of CSE Page 129
+Data Structures Lab Using C++ 2019-2020
+if (root !=NULL)
+{
+min=bst.findmin(root);
+cout<<"Min element : "<<min->element;
+}
+break;
+case 3:
+if (root !=NULL)
+{
+max=bst.findmax(root);
+cout<<"Max element : "<<max->element;
+}
+break;
+case 4:
+cout<<"Search node : ";
+cin>>findele;
+if (root != NULL)
+bst.find(findele,root);
+break;
+case 5:
+bst.copy(root,root1);
+bst.inorder(root1);
+break;
+case 6:
+Department of CSE Page 130
+Data Structures Lab Using C++ 2019-2020
+cout<<"Delete Node ?";
+cin>>delele;
+bst.del(delele,root);
+bst.inorder(root);
+break;
+case 7:
+cout<<" Preorder Printing... :";
+bst.preorder(root);
+break;
+case 8:
+cout<<" Inorder Printing.... :";
+bst.inorder(root);
+break;
+case 9:
+cout<<" Postorder Printing... :";
+bst.postorder(root);
+break;
+case 10:
+cout<<" Height and Depth is ";
+cout<<bst.bsheight(root);
+//cout<<"No. of nodes:"<<bst.nonodes(root);
+break;
+case 11:exit(0);
+}
+}
+Department of CSE Page 131
+return 0;
+}
+Output :
+Signature of the Faculty
+Department of CSE Page 132

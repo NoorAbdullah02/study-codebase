@@ -1,0 +1,1 @@
+{"name":"Local: MirrorArray","url":"c:\\Users\\Hp\\OneDrive\\Desktop\\Personal\\YOU_KNOW_ME\\Course\\MirrorArray.cpp","tests":[{"id":1752245984266,"input":"3 3\n2 3 5\n7 9 20\n35 1 12","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Hp\\OneDrive\\Desktop\\Personal\\YOU_KNOW_ME\\Course\\MirrorArray.cpp","group":"local","local":true}

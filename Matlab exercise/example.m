@@ -1,0 +1,12 @@
+clc;
+clear all;
+t = -20:1:30;
+x1 = (t>=-10 & t<=10) + (-(t>=10 & t<=20));
+subplot(2,1,1);
+plot(t,x1);
+axis([-20 30 -1.5 2]);
+time = -fliplr(t);
+x1_reverse = fliplr(x1);
+subplot(2,1,2);
+plot(time,x1_reverse);
+axis([-20 30 -1.5 2]);

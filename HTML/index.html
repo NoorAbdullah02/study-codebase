@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Donation Website</title>
+  <style>
+    /* Add some basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #8d0000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    input, textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #8d0000;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    #registration-list {
+      margin-top: 40px;
+    }
+    #registration-list table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    #registration-list th, #registration-list td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    #registration-list th {
+      background-color: #8d0000;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+    <script src="/script.js"></script>
+  <header>
+    <h1>Blood Donation Website</h1>
+  </header>
+  <main>
+    <h2>Registration</h2>
+    <form id="registration-form">
+      <input type="text" placeholder="Full Name" id="name" required>
+      <input type="email" placeholder="Email" id="email" required>
+      <input type="tel" placeholder="Phone Number" id="phone" required>
+      <textarea placeholder="Address" id="address" required></textarea>
+      <input type="date" placeholder="Date of Birth" id="dob" required>
+      <input type="text" placeholder="Blood Group" id="blood-group" required>
+      <button type="submit">Register</button>
+    </form>
+
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Name" id="contact-name" required>
+      <input type="email" placeholder="Email" id="contact-email" required>
+      <textarea placeholder="Message" id="contact-message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+    <h2>Edit Information</h2>
+    <form id="edit-form">
+      <input type="text" placeholder="Full Name" id="edit-name" required>
+      <input type="email" placeholder="Email" id="edit-email" required>
+      <input type="tel" placeholder="Phone Number" id="edit-phone" required>
+      <textarea placeholder="Address" id="edit-address" required></textarea>
+      <input type="date" placeholder="Date of Birth" id="edit-dob" required>
+      <input type="text" placeholder="Blood Group" id="edit-blood-group" required>
+      <button type="submit">Update</button>
+    </form>
+
+    <div id="registration-list">
+      <h2>Registered Donors</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Blood Group</th>
+          </tr>
+        </thead>
+        <tbody id="registration-table-body">
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <script>
+    // Form submission event listeners
+    document.getElementById('registration-form').addEventListener('submit', handleRegistration);
+    document.getElementById('contact-form').addEventListener('submit', handleContact);
+    document.getElementById('edit-form').addEventListener('submit', handleEdit);
+
+    // Registration list
+    const registrationList = [];
+
+    // Handle registration form submission
+    function handleRegistration(event) {
+      event.preventDefault();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const phone = document.getElementById('phone').value;
+      const address = document.getElementById('address').value;
+      const dob = document.getElementById('dob').value;
+      const bloodGroup = document.getElementById('blood-group').value;
+
+      // Add the new registration to the list
+      registrationList.push({ name, email, phone, bloodGroup });
+
+      // Clear the form fields
+      document.getElementById('registration-form').reset();
+
+      // Update the registration list table
+      updateRegistrationTable();
+    }
+
+    // Handle contact form submission
+    function handleContact(event) {
+      event.preventDefault();
+      // Add your contact form logic here
+      alert('Your message has been sent!');
+      document.getElementById('contact-form').reset();
+    }
+
+    // Handle edit form submission
+    function handleEdit(event) {
+      event.preventDefault();
+      const name = document.getElementById('edit-name').value;
+      const email = document.getElementById('edit-email').value;
+      const phone = document.getElementById('edit-phone').value;
+      const address = document.getElementById('edit-address').value;
+      const dob = document.getElementById('edit-dob').value;
+      const bloodGroup = document.getElementById('edit-blood-group').value;
+
+      // Find the registration in the list and update it
+      const index = registrationList.findIndex(reg => reg.email === email);
+      if (index !== -1) {
+        registrationList[index] = { name, email, phone, bloodGroup };
+        updateRegistrationTable();
+      }
+
+      // Clear the edit form fields
+      document.getElementById('edit-form').reset();
+    }
+
+    // Update the registration list table
+    function updateRegistrationTable() {
+      const tableBody = document.getElementById('registration-table-body');
+      tableBody.innerHTML = '';
+
+      registrationList.forEach(reg => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td>${reg.name}</td>
+          <td>${reg.email}</td>
+          <td>${reg.phone}</td>
+          <td>${reg.bloodGroup}</td>
+        `;
+        tableBody.appendChild(row);
+      });
+    }
+  </script>
+</body>
+</html>

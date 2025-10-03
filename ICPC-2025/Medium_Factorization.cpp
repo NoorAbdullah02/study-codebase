@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <bits/unique_ptr.h>
 using namespace std;
 
 int main()
@@ -29,3 +30,4 @@ int main()
     }
     return 0;
 }
+
